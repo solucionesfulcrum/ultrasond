@@ -341,3 +341,53 @@
 [2024-09-28 18:25:13:331][P:15008:22236][ERROR][ColorImageEngineServer.cpp:252]  SetATGC32 Error 1
 [2024-09-28 18:25:13:337][P:15008:22236][ERROR][ColorImageEngineServer.cpp:256]  SetApo Error 1
 [2024-09-28 18:25:13:341][P:15008:22236][ERROR][ColorImageEngineServer.cpp:260]  SetApoComp Error 1
+[2024-09-30 22:16:47:408][P:18260:5160][ERROR][ColorImageEngineServer.cpp:177] Open HW failed : 11
+[2024-09-30 22:16:47:408][P:18260:5160][ERROR][ColorImageEngineServer.cpp:247]  OpenHW Error 11
+[2024-09-30 22:16:47:409][P:18260:5160][ERROR][ColorImageEngineServer.cpp:252]  SetATGC32 Error 1
+[2024-09-30 22:16:47:415][P:18260:5160][ERROR][ColorImageEngineServer.cpp:256]  SetApo Error 1
+[2024-09-30 22:16:47:419][P:18260:5160][ERROR][ColorImageEngineServer.cpp:260]  SetApoComp Error 1
+[2024-09-30 22:16:53:328][P:18260:5160][ERROR][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1812] Algorithm Set Error : -214
+[2024-09-30 22:16:53:329][P:18260:5160][ERROR][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1902] B_set Depth_level 2; Gain 50.000000; DR 60.000000; SRI_level 5;				 Correlation_level 3; Width 1280; High 960; AD_len 1;				 FrameHeader_len 8; GrayColorMap_level 3; TintMap_level 0;				 TGC_manual[0] 0.000000; TGC_manual[1] 0.000000; TGC_manual[2] 0.000000;				 TGC_manual[3] 0.000000; TGC_manual[4] 0.000000; TGC_manual[5] 0.000000;				 NE_on_off 0; NE_Tx_angle 0 ; NE_line_len 0 
+[2024-09-30 22:16:53:329][P:18260:5160][ERROR][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1919] C_set Depth_level 2; WallFilter_level 1; Gain 50.000000; 				 ColorPriority_level 2;FrameCorrelation_level 2;				 Rx_start 0; Rx_num 12; Rx_idx 0; 				 Rx_len 8; Rx_scan_cross 3; 				 Width 1280; High 960; W_idx 26; W_len 0;				 H_idx 0; H_len 0; Theta 0.000000; 				 phi 0.000000; delta 0.000000; radius 0.000000;r_len 1.000000; 				 FrameHeader_len 8; ColorMap_level 1; 				 Color_mode 0; ColorMap_inversion 0; 
+[2024-09-30 22:27:56:724][P:8900:21196][ERROR][ColorImageEngineServer.cpp:177] Open HW failed : 11
+[2024-09-30 22:27:56:725][P:8900:21196][ERROR][ColorImageEngineServer.cpp:247]  OpenHW Error 11
+[2024-09-30 22:27:56:725][P:8900:21196][ERROR][ColorImageEngineServer.cpp:252]  SetATGC32 Error 1
+[2024-09-30 22:27:56:726][P:8900:21196][ERROR][ColorImageEngineServer.cpp:256]  SetApo Error 1
+[2024-09-30 22:27:56:727][P:8900:21196][ERROR][ColorImageEngineServer.cpp:260]  SetApoComp Error 1
+[2024-09-30 22:28:00:293][P:8900:21196][ERROR][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1812] Algorithm Set Error : -214
+[2024-09-30 22:28:00:293][P:8900:21196][ERROR][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1902] B_set Depth_level 2; Gain 50.000000; DR 60.000000; SRI_level 5;				 Correlation_level 3; Width 1280; High 960; AD_len 1;				 FrameHeader_len 8; GrayColorMap_level 3; TintMap_level 0;				 TGC_manual[0] 0.000000; TGC_manual[1] 0.000000; TGC_manual[2] 0.000000;				 TGC_manual[3] 0.000000; TGC_manual[4] 0.000000; TGC_manual[5] 0.000000;				 NE_on_off 0; NE_Tx_angle 0 ; NE_line_len 0 
+[2024-09-30 22:28:00:293][P:8900:21196][ERROR][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1919] C_set Depth_level 2; WallFilter_level 1; Gain 50.000000; 				 ColorPriority_level 2;FrameCorrelation_level 2;				 Rx_start 0; Rx_num 12; Rx_idx 0; 				 Rx_len 8; Rx_scan_cross 3; 				 Width 1280; High 960; W_idx 26; W_len 0;				 H_idx 0; H_len 0; Theta 0.000000; 				 phi 0.000000; delta 0.000000; radius 0.000000;r_len 1.000000; 				 FrameHeader_len 8; ColorMap_level 1; 				 Color_mode 0; ColorMap_inversion 0; 
+[2024-09-30 22:33:48:098][P:18924:19336][ERROR][ColorImageEngineServer.cpp:177] Open HW failed : 11
+[2024-09-30 22:33:48:098][P:18924:19336][ERROR][ColorImageEngineServer.cpp:247]  OpenHW Error 11
+[2024-09-30 22:33:48:099][P:18924:19336][ERROR][ColorImageEngineServer.cpp:252]  SetATGC32 Error 1
+[2024-09-30 22:33:48:100][P:18924:19336][ERROR][ColorImageEngineServer.cpp:256]  SetApo Error 1
+[2024-09-30 22:33:48:101][P:18924:19336][ERROR][ColorImageEngineServer.cpp:260]  SetApoComp Error 1
+[2024-09-30 22:34:07:127][P:18924:19336][ERROR][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1812] Algorithm Set Error : -214
+[2024-09-30 22:34:07:127][P:18924:19336][ERROR][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1902] B_set Depth_level 2; Gain 50.000000; DR 60.000000; SRI_level 5;				 Correlation_level 3; Width 1280; High 960; AD_len 1;				 FrameHeader_len 8; GrayColorMap_level 3; TintMap_level 0;				 TGC_manual[0] 0.000000; TGC_manual[1] 0.000000; TGC_manual[2] 0.000000;				 TGC_manual[3] 0.000000; TGC_manual[4] 0.000000; TGC_manual[5] 0.000000;				 NE_on_off 0; NE_Tx_angle 0 ; NE_line_len 0 
+[2024-09-30 22:34:07:127][P:18924:19336][ERROR][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1919] C_set Depth_level 2; WallFilter_level 1; Gain 50.000000; 				 ColorPriority_level 2;FrameCorrelation_level 2;				 Rx_start 0; Rx_num 12; Rx_idx 0; 				 Rx_len 8; Rx_scan_cross 3; 				 Width 1280; High 960; W_idx 26; W_len 0;				 H_idx 0; H_len 0; Theta 0.000000; 				 phi 0.000000; delta 0.000000; radius 0.000000;r_len 1.000000; 				 FrameHeader_len 8; ColorMap_level 1; 				 Color_mode 0; ColorMap_inversion 0; 
+[2024-09-30 22:35:01:028][P:22832:22836][ERROR][ColorImageEngineServer.cpp:177] Open HW failed : 11
+[2024-09-30 22:35:01:029][P:22832:22836][ERROR][ColorImageEngineServer.cpp:247]  OpenHW Error 11
+[2024-09-30 22:35:01:029][P:22832:22836][ERROR][ColorImageEngineServer.cpp:252]  SetATGC32 Error 1
+[2024-09-30 22:35:01:030][P:22832:22836][ERROR][ColorImageEngineServer.cpp:256]  SetApo Error 1
+[2024-09-30 22:35:01:031][P:22832:22836][ERROR][ColorImageEngineServer.cpp:260]  SetApoComp Error 1
+[2024-09-30 22:35:19:807][P:22832:22836][ERROR][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1812] Algorithm Set Error : -214
+[2024-09-30 22:35:19:807][P:22832:22836][ERROR][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1902] B_set Depth_level 2; Gain 50.000000; DR 60.000000; SRI_level 5;				 Correlation_level 3; Width 1280; High 960; AD_len 1;				 FrameHeader_len 8; GrayColorMap_level 3; TintMap_level 0;				 TGC_manual[0] 0.000000; TGC_manual[1] 0.000000; TGC_manual[2] 0.000000;				 TGC_manual[3] 0.000000; TGC_manual[4] 0.000000; TGC_manual[5] 0.000000;				 NE_on_off 0; NE_Tx_angle 0 ; NE_line_len 0 
+[2024-09-30 22:35:19:807][P:22832:22836][ERROR][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1919] C_set Depth_level 2; WallFilter_level 1; Gain 50.000000; 				 ColorPriority_level 2;FrameCorrelation_level 2;				 Rx_start 0; Rx_num 12; Rx_idx 0; 				 Rx_len 8; Rx_scan_cross 3; 				 Width 1280; High 960; W_idx 26; W_len 0;				 H_idx 0; H_len 0; Theta 0.000000; 				 phi 0.000000; delta 0.000000; radius 0.000000;r_len 1.000000; 				 FrameHeader_len 8; ColorMap_level 1; 				 Color_mode 0; ColorMap_inversion 0; 
+[2024-09-30 22:39:19:696][P:10080:23336][ERROR][ColorImageEngineServer.cpp:177] Open HW failed : 11
+[2024-09-30 22:39:19:697][P:10080:23336][ERROR][ColorImageEngineServer.cpp:247]  OpenHW Error 11
+[2024-09-30 22:39:19:698][P:10080:23336][ERROR][ColorImageEngineServer.cpp:252]  SetATGC32 Error 1
+[2024-09-30 22:39:19:698][P:10080:23336][ERROR][ColorImageEngineServer.cpp:256]  SetApo Error 1
+[2024-09-30 22:39:19:699][P:10080:23336][ERROR][ColorImageEngineServer.cpp:260]  SetApoComp Error 1
+[2024-09-30 22:45:38:784][P:9888:22580][ERROR][ColorImageEngineServer.cpp:177] Open HW failed : 11
+[2024-09-30 22:45:38:785][P:9888:22580][ERROR][ColorImageEngineServer.cpp:247]  OpenHW Error 11
+[2024-09-30 22:45:38:785][P:9888:22580][ERROR][ColorImageEngineServer.cpp:252]  SetATGC32 Error 1
+[2024-09-30 22:45:38:786][P:9888:22580][ERROR][ColorImageEngineServer.cpp:256]  SetApo Error 1
+[2024-09-30 22:45:38:787][P:9888:22580][ERROR][ColorImageEngineServer.cpp:260]  SetApoComp Error 1
+[2024-09-30 22:45:49:212][P:9888:22580][ERROR][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1812] Algorithm Set Error : -214
+[2024-09-30 22:45:49:212][P:9888:22580][ERROR][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1902] B_set Depth_level 2; Gain 50.000000; DR 60.000000; SRI_level 5;				 Correlation_level 3; Width 1280; High 960; AD_len 1;				 FrameHeader_len 8; GrayColorMap_level 3; TintMap_level 0;				 TGC_manual[0] 0.000000; TGC_manual[1] 0.000000; TGC_manual[2] 0.000000;				 TGC_manual[3] 0.000000; TGC_manual[4] 0.000000; TGC_manual[5] 0.000000;				 NE_on_off 0; NE_Tx_angle 0 ; NE_line_len 0 
+[2024-09-30 22:45:49:212][P:9888:22580][ERROR][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1919] C_set Depth_level 2; WallFilter_level 1; Gain 50.000000; 				 ColorPriority_level 2;FrameCorrelation_level 2;				 Rx_start 0; Rx_num 12; Rx_idx 0; 				 Rx_len 8; Rx_scan_cross 3; 				 Width 1280; High 960; W_idx 26; W_len 0;				 H_idx 0; H_len 0; Theta 0.000000; 				 phi 0.000000; delta 0.000000; radius 0.000000;r_len 1.000000; 				 FrameHeader_len 8; ColorMap_level 1; 				 Color_mode 0; ColorMap_inversion 0; 
+[2024-10-17 15:32:53:863][P:13288:3360][ERROR][ColorImageEngineServer.cpp:177] Open HW failed : 11
+[2024-10-17 15:32:53:864][P:13288:3360][ERROR][ColorImageEngineServer.cpp:247]  OpenHW Error 11
+[2024-10-17 15:32:53:864][P:13288:3360][ERROR][ColorImageEngineServer.cpp:252]  SetATGC32 Error 1
+[2024-10-17 15:32:53:866][P:13288:3360][ERROR][ColorImageEngineServer.cpp:256]  SetApo Error 1
+[2024-10-17 15:32:53:868][P:13288:3360][ERROR][ColorImageEngineServer.cpp:260]  SetApoComp Error 1
