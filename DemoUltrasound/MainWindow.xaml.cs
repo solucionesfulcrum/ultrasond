@@ -23,12 +23,17 @@ using Accord.Video.FFMPEG;
 using System.Drawing;
 using System.Drawing.Imaging;
 using System.IO;
+using System.Runtime.InteropServices;
+using DemoUltrasound;
 
 namespace DemoUltrasound
 {
     /// <summary>
     /// MainWindow.xaml 的交互逻辑
     /// </summary>
+    /// 
+
+
     public partial class MainWindow : Window, INotifyPropertyChanged
     {
         #region PropertyChanged
@@ -44,11 +49,13 @@ namespace DemoUltrasound
         }
 
         #endregion
+    
+       
 
         private CLR_DemoServer _demoServer = null;
         private ImageData imageData = new ImageData(); //刷新数据缓存
         private ExamModeConfig _examModeConfigSetting = ExamModeConfig.ExamModeConfigSetting; //检查模式参数配置类
-
+        
         private string currentCheckModeParamPath = "";
 
 
@@ -92,6 +99,8 @@ namespace DemoUltrasound
             _demoServer = CLR_DemoServer.GetInstance(); //后台demoServer获取demo单例
 
             InitializeComponent();
+            // configuracion 
+            //ConfigurarListener();
             SelectionRectangle.MouseDown += SelectionRectangle_MouseDown;
             SelectionRectangle.MouseMove += SelectionRectangle_MouseMove;
             SelectionRectangle.MouseUp += SelectionRectangle_MouseUp;
@@ -169,6 +178,154 @@ namespace DemoUltrasound
 
             _getHWVerTimer = new Timer(GetHWVersion, this, Timeout.Infinite, Timeout.Infinite);
             _setTextTimer = new Timer(SetTextTimer, this, Timeout.Infinite, Timeout.Infinite);
+        }
+
+        //Simular data en cruda generada
+        /*private void GenerarDatosSimulados()
+        {
+           /* // Dimensiones de la imagen simulada (128x128 píxeles)
+            int width = 128;
+            int height = 128;
+    
+            // Generar datos en crudo simulados
+            byte[,] datosEnCrudo = new byte[height, width];
+            Random random = new Random();
+
+            // Llenar la matriz con valores aleatorios (0-255)
+            for (int i = 0; i < height; i++)
+            {
+                for (int j = 0; j < width; j++)
+                {
+                    datosEnCrudo[i, j] = (byte)random.Next(0, 256);
+                }
+            }
+
+            // Guardar los datos en un archivo binario
+            string filePath = "datosEnCrudoSimulados.bin"; // Puedes ajustar la ruta según sea necesario
+            using (FileStream fs = new FileStream(filePath, FileMode.Create, FileAccess.Write))
+            {
+                using (BinaryWriter writer = new BinaryWriter(fs))
+                {
+                    for (int i = 0; i < height; i++)
+                    {
+                        for (int j = 0; j < width; j++)
+                        {
+                            writer.Write(datosEnCrudo[i, j]);
+                        }
+                    }
+                }
+            }
+
+            MessageBox.Show(string.Format("Datos en crudo simulados guardados en",filePath));*/
+           // MessageBox.Show(string.Format("Datos en crudo simulados guardados en"));
+        //}
+
+        private void StartEngineButton_Click(object sender, RoutedEventArgs e)
+        {
+            try
+            {
+                // Crear una instancia del listener
+                int dataSize = 83054294;
+                UltrasoundListener listener = new UltrasoundListener(dataSize);
+
+                FrameDataUpdatedCallback callback = new FrameDataUpdatedCallback(listener.OnFrameDataUpdated);
+                IntPtr listenerPtr = Marshal.GetFunctionPointerForDelegate(callback);
+
+                NativeMethods.SetFrameDataListener(listenerPtr);
+
+                MessageBox.Show(string.Format("Listener configurado. Esperando datos...:  {0}", listenerPtr));
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(string.Format("Error al configurar el listener: {0}", ex.Message));
+            }
+        }
+
+
+        /*private void StartEngineButton_Click(object sender, RoutedEventArgs e)
+        {
+            // Dimensiones de la imagen simulada (128x128 píxeles)
+            int width = 128;
+            int height = 128;
+
+            // Generar datos en crudo simulados
+            byte[,] datosEnCrudo = new byte[height, width];
+            Random random = new Random();
+
+            // Llenar la matriz con valores aleatorios (0-255)
+            for (int i = 0; i < height; i++)
+            {
+                for (int j = 0; j < width; j++)
+                {
+                    datosEnCrudo[i, j] = (byte)random.Next(0, 256);
+                }
+            }
+
+            // Guardar los datos en un archivo binario
+            string filePath = "datosEnCrudoSimulados.bin"; // Puedes ajustar la ruta según sea necesario
+            using (FileStream fs = new FileStream(filePath, FileMode.Create, FileAccess.Write))
+            {
+                using (BinaryWriter writer = new BinaryWriter(fs))
+                {
+                    for (int i = 0; i < height; i++)
+                    {
+                        for (int j = 0; j < width; j++)
+                        {
+                            writer.Write(datosEnCrudo[i, j]);
+                        }
+                    }
+                }
+            }
+
+            MessageBox.Show(string.Format("Datos en crudo simulados guardados en", filePath));
+        }*/
+
+        private void GenerarDatosSimulados_Click(object sender, RoutedEventArgs e)
+        {
+
+            int width = 128;
+            int height = 128;
+
+            // Generar datos en crudo simulados para I y Q
+            float[,] datosI = new float[height, width];
+            float[,] datosQ = new float[height, width];
+            Random random = new Random();
+
+            // Parámetros para simular una señal sinusoidal
+            double frecuencia = 5.0;
+            double amplitud = 1.0;
+            double ruido = 0.1;
+
+            // Llenar las matrices con valores simulados de señales I/Q
+            for (int i = 0; i < height; i++)
+            {
+                for (int j = 0; j < width; j++)
+                {
+                    // Simular una señal sinusoidal modulada con ruido
+                    datosI[i, j] = (float)(amplitud * Math.Sin(2 * Math.PI * frecuencia * j / width) + ruido * (random.NextDouble() - 0.5));
+                    datosQ[i, j] = (float)(amplitud * Math.Cos(2 * Math.PI * frecuencia * j / width) + ruido * (random.NextDouble() - 0.5));
+                }
+            }
+
+            // Guardar los datos en un archivo binario
+            string filePath = "datosDopplerSimulados.bin";
+            using (FileStream fs = new FileStream(filePath, FileMode.Create, FileAccess.Write))
+            {
+                using (BinaryWriter writer = new BinaryWriter(fs))
+                {
+                    for (int i = 0; i < height; i++)
+                    {
+                        for (int j = 0; j < width; j++)
+                        {
+                            writer.Write(datosI[i, j]);
+                            writer.Write(datosQ[i, j]);
+                        }
+                    }
+                }
+            }
+
+            MessageBox.Show(string.Format("Datos Doppler simulados guardados en {0}", filePath));
+
         }
 
         private void MoveThumb_DragDelta(object sender, DragDeltaEventArgs e)

@@ -391,3 +391,254 @@
 [2024-10-17 15:32:53:864][P:13288:3360][ERROR][ColorImageEngineServer.cpp:252]  SetATGC32 Error 1
 [2024-10-17 15:32:53:866][P:13288:3360][ERROR][ColorImageEngineServer.cpp:256]  SetApo Error 1
 [2024-10-17 15:32:53:868][P:13288:3360][ERROR][ColorImageEngineServer.cpp:260]  SetApoComp Error 1
+[2024-10-17 15:36:04:031][P:11544:12644][ERROR][ColorImageEngineServer.cpp:177] Open HW failed : 11
+[2024-10-17 15:36:04:032][P:11544:12644][ERROR][ColorImageEngineServer.cpp:247]  OpenHW Error 11
+[2024-10-17 15:36:04:032][P:11544:12644][ERROR][ColorImageEngineServer.cpp:252]  SetATGC32 Error 1
+[2024-10-17 15:36:04:033][P:11544:12644][ERROR][ColorImageEngineServer.cpp:256]  SetApo Error 1
+[2024-10-17 15:36:04:034][P:11544:12644][ERROR][ColorImageEngineServer.cpp:260]  SetApoComp Error 1
+[2024-10-17 15:44:26:983][P:11544:12644][ERROR][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1812] Algorithm Set Error : -214
+[2024-10-17 15:44:26:983][P:11544:12644][ERROR][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1902] B_set Depth_level 2; Gain 50.000000; DR 60.000000; SRI_level 5;				 Correlation_level 3; Width 1280; High 960; AD_len 1;				 FrameHeader_len 8; GrayColorMap_level 3; TintMap_level 0;				 TGC_manual[0] 0.000000; TGC_manual[1] 0.000000; TGC_manual[2] 0.000000;				 TGC_manual[3] 0.000000; TGC_manual[4] 0.000000; TGC_manual[5] 0.000000;				 NE_on_off 0; NE_Tx_angle 0 ; NE_line_len 0 
+[2024-10-17 15:44:26:983][P:11544:12644][ERROR][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1919] C_set Depth_level 2; WallFilter_level 1; Gain 50.000000; 				 ColorPriority_level 2;FrameCorrelation_level 2;				 Rx_start 0; Rx_num 12; Rx_idx 0; 				 Rx_len 8; Rx_scan_cross 3; 				 Width 1280; High 960; W_idx 26; W_len 0;				 H_idx 0; H_len 0; Theta 0.000000; 				 phi 0.000000; delta 0.000000; radius 0.000000;r_len 1.000000; 				 FrameHeader_len 8; ColorMap_level 1; 				 Color_mode 0; ColorMap_inversion 0; 
+[2024-10-17 16:08:14:040][P:9372:14044][ERROR][ColorImageEngineServer.cpp:177] Open HW failed : 11
+[2024-10-17 16:08:14:041][P:9372:14044][ERROR][ColorImageEngineServer.cpp:247]  OpenHW Error 11
+[2024-10-17 16:08:14:041][P:9372:14044][ERROR][ColorImageEngineServer.cpp:252]  SetATGC32 Error 1
+[2024-10-17 16:08:14:046][P:9372:14044][ERROR][ColorImageEngineServer.cpp:256]  SetApo Error 1
+[2024-10-17 16:08:14:050][P:9372:14044][ERROR][ColorImageEngineServer.cpp:260]  SetApoComp Error 1
+[2024-10-17 16:08:19:393][P:9372:14044][ERROR][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1812] Algorithm Set Error : -214
+[2024-10-17 16:08:19:393][P:9372:14044][ERROR][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1902] B_set Depth_level 2; Gain 50.000000; DR 60.000000; SRI_level 5;				 Correlation_level 3; Width 1280; High 960; AD_len 1;				 FrameHeader_len 8; GrayColorMap_level 3; TintMap_level 0;				 TGC_manual[0] 0.000000; TGC_manual[1] 0.000000; TGC_manual[2] 0.000000;				 TGC_manual[3] 0.000000; TGC_manual[4] 0.000000; TGC_manual[5] 0.000000;				 NE_on_off 0; NE_Tx_angle 0 ; NE_line_len 0 
+[2024-10-17 16:08:19:393][P:9372:14044][ERROR][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1919] C_set Depth_level 2; WallFilter_level 1; Gain 50.000000; 				 ColorPriority_level 2;FrameCorrelation_level 2;				 Rx_start 0; Rx_num 12; Rx_idx 0; 				 Rx_len 8; Rx_scan_cross 3; 				 Width 1280; High 960; W_idx 26; W_len 0;				 H_idx 0; H_len 0; Theta 0.000000; 				 phi 0.000000; delta 0.000000; radius 0.000000;r_len 1.000000; 				 FrameHeader_len 8; ColorMap_level 1; 				 Color_mode 0; ColorMap_inversion 0; 
+[2024-10-17 16:19:43:046][P:12132:8484][ERROR][ColorImageEngineServer.cpp:177] Open HW failed : 11
+[2024-10-17 16:19:43:047][P:12132:8484][ERROR][ColorImageEngineServer.cpp:247]  OpenHW Error 11
+[2024-10-17 16:19:43:047][P:12132:8484][ERROR][ColorImageEngineServer.cpp:252]  SetATGC32 Error 1
+[2024-10-17 16:19:43:048][P:12132:8484][ERROR][ColorImageEngineServer.cpp:256]  SetApo Error 1
+[2024-10-17 16:19:43:049][P:12132:8484][ERROR][ColorImageEngineServer.cpp:260]  SetApoComp Error 1
+[2024-10-17 16:25:01:045][P:10928:19660][ERROR][ColorImageEngineServer.cpp:177] Open HW failed : 11
+[2024-10-17 16:25:01:046][P:10928:19660][ERROR][ColorImageEngineServer.cpp:247]  OpenHW Error 11
+[2024-10-17 16:25:01:046][P:10928:19660][ERROR][ColorImageEngineServer.cpp:252]  SetATGC32 Error 1
+[2024-10-17 16:25:01:047][P:10928:19660][ERROR][ColorImageEngineServer.cpp:256]  SetApo Error 1
+[2024-10-17 16:25:01:048][P:10928:19660][ERROR][ColorImageEngineServer.cpp:260]  SetApoComp Error 1
+[2024-10-17 16:26:47:841][P:3932:7020][ERROR][ColorImageEngineServer.cpp:177] Open HW failed : 11
+[2024-10-17 16:26:47:841][P:3932:7020][ERROR][ColorImageEngineServer.cpp:247]  OpenHW Error 11
+[2024-10-17 16:26:47:842][P:3932:7020][ERROR][ColorImageEngineServer.cpp:252]  SetATGC32 Error 1
+[2024-10-17 16:26:47:843][P:3932:7020][ERROR][ColorImageEngineServer.cpp:256]  SetApo Error 1
+[2024-10-17 16:26:47:844][P:3932:7020][ERROR][ColorImageEngineServer.cpp:260]  SetApoComp Error 1
+[2024-10-17 16:29:23:966][P:17012:20824][ERROR][ColorImageEngineServer.cpp:177] Open HW failed : 11
+[2024-10-17 16:29:23:966][P:17012:20824][ERROR][ColorImageEngineServer.cpp:247]  OpenHW Error 11
+[2024-10-17 16:29:23:967][P:17012:20824][ERROR][ColorImageEngineServer.cpp:252]  SetATGC32 Error 1
+[2024-10-17 16:29:23:968][P:17012:20824][ERROR][ColorImageEngineServer.cpp:256]  SetApo Error 1
+[2024-10-17 16:29:23:969][P:17012:20824][ERROR][ColorImageEngineServer.cpp:260]  SetApoComp Error 1
+[2024-10-17 16:59:55:673][P:20864:21124][ERROR][ColorImageEngineServer.cpp:177] Open HW failed : 11
+[2024-10-17 16:59:55:674][P:20864:21124][ERROR][ColorImageEngineServer.cpp:247]  OpenHW Error 11
+[2024-10-17 16:59:55:674][P:20864:21124][ERROR][ColorImageEngineServer.cpp:252]  SetATGC32 Error 1
+[2024-10-17 16:59:55:680][P:20864:21124][ERROR][ColorImageEngineServer.cpp:256]  SetApo Error 1
+[2024-10-17 16:59:55:681][P:20864:21124][ERROR][ColorImageEngineServer.cpp:260]  SetApoComp Error 1
+[2024-10-17 16:59:59:399][P:20864:21124][ERROR][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1812] Algorithm Set Error : -214
+[2024-10-17 16:59:59:399][P:20864:21124][ERROR][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1902] B_set Depth_level 2; Gain 50.000000; DR 60.000000; SRI_level 5;				 Correlation_level 3; Width 1280; High 960; AD_len 1;				 FrameHeader_len 8; GrayColorMap_level 3; TintMap_level 0;				 TGC_manual[0] 0.000000; TGC_manual[1] 0.000000; TGC_manual[2] 0.000000;				 TGC_manual[3] 0.000000; TGC_manual[4] 0.000000; TGC_manual[5] 0.000000;				 NE_on_off 0; NE_Tx_angle 0 ; NE_line_len 0 
+[2024-10-17 16:59:59:400][P:20864:21124][ERROR][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1919] C_set Depth_level 2; WallFilter_level 1; Gain 50.000000; 				 ColorPriority_level 2;FrameCorrelation_level 2;				 Rx_start 0; Rx_num 12; Rx_idx 0; 				 Rx_len 8; Rx_scan_cross 3; 				 Width 1280; High 960; W_idx 26; W_len 0;				 H_idx 0; H_len 0; Theta 0.000000; 				 phi 0.000000; delta 0.000000; radius 0.000000;r_len 1.000000; 				 FrameHeader_len 8; ColorMap_level 1; 				 Color_mode 0; ColorMap_inversion 0; 
+[2024-10-17 21:55:11:936][P:9408:8600][ERROR][ColorImageEngineServer.cpp:177] Open HW failed : 11
+[2024-10-17 21:55:11:936][P:9408:8600][ERROR][ColorImageEngineServer.cpp:247]  OpenHW Error 11
+[2024-10-17 21:55:11:937][P:9408:8600][ERROR][ColorImageEngineServer.cpp:252]  SetATGC32 Error 1
+[2024-10-17 21:55:11:938][P:9408:8600][ERROR][ColorImageEngineServer.cpp:256]  SetApo Error 1
+[2024-10-17 21:55:11:939][P:9408:8600][ERROR][ColorImageEngineServer.cpp:260]  SetApoComp Error 1
+[2024-10-17 21:55:48:173][P:9408:8600][ERROR][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1812] Algorithm Set Error : -214
+[2024-10-17 21:55:48:173][P:9408:8600][ERROR][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1902] B_set Depth_level 2; Gain 50.000000; DR 60.000000; SRI_level 5;				 Correlation_level 3; Width 1280; High 960; AD_len 1;				 FrameHeader_len 8; GrayColorMap_level 3; TintMap_level 0;				 TGC_manual[0] 0.000000; TGC_manual[1] 0.000000; TGC_manual[2] 0.000000;				 TGC_manual[3] 0.000000; TGC_manual[4] 0.000000; TGC_manual[5] 0.000000;				 NE_on_off 0; NE_Tx_angle 0 ; NE_line_len 0 
+[2024-10-17 21:55:48:173][P:9408:8600][ERROR][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1919] C_set Depth_level 2; WallFilter_level 1; Gain 50.000000; 				 ColorPriority_level 2;FrameCorrelation_level 2;				 Rx_start 0; Rx_num 12; Rx_idx 0; 				 Rx_len 8; Rx_scan_cross 3; 				 Width 1280; High 960; W_idx 26; W_len 0;				 H_idx 0; H_len 0; Theta 0.000000; 				 phi 0.000000; delta 0.000000; radius 0.000000;r_len 1.000000; 				 FrameHeader_len 8; ColorMap_level 1; 				 Color_mode 0; ColorMap_inversion 0; 
+[2024-10-17 21:56:44:215][P:23232:18120][ERROR][ColorImageEngineServer.cpp:177] Open HW failed : 11
+[2024-10-17 21:56:44:216][P:23232:18120][ERROR][ColorImageEngineServer.cpp:247]  OpenHW Error 11
+[2024-10-17 21:56:44:216][P:23232:18120][ERROR][ColorImageEngineServer.cpp:252]  SetATGC32 Error 1
+[2024-10-17 21:56:44:217][P:23232:18120][ERROR][ColorImageEngineServer.cpp:256]  SetApo Error 1
+[2024-10-17 21:56:44:218][P:23232:18120][ERROR][ColorImageEngineServer.cpp:260]  SetApoComp Error 1
+[2024-10-17 21:57:32:125][P:23232:18120][ERROR][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1812] Algorithm Set Error : -214
+[2024-10-17 21:57:32:125][P:23232:18120][ERROR][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1902] B_set Depth_level 2; Gain 50.000000; DR 60.000000; SRI_level 5;				 Correlation_level 3; Width 1280; High 960; AD_len 1;				 FrameHeader_len 8; GrayColorMap_level 3; TintMap_level 0;				 TGC_manual[0] 0.000000; TGC_manual[1] 0.000000; TGC_manual[2] 0.000000;				 TGC_manual[3] 0.000000; TGC_manual[4] 0.000000; TGC_manual[5] 0.000000;				 NE_on_off 0; NE_Tx_angle 0 ; NE_line_len 0 
+[2024-10-17 21:57:32:126][P:23232:18120][ERROR][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1919] C_set Depth_level 2; WallFilter_level 1; Gain 50.000000; 				 ColorPriority_level 2;FrameCorrelation_level 2;				 Rx_start 0; Rx_num 12; Rx_idx 0; 				 Rx_len 8; Rx_scan_cross 3; 				 Width 1280; High 960; W_idx 26; W_len 0;				 H_idx 0; H_len 0; Theta 0.000000; 				 phi 0.000000; delta 0.000000; radius 0.000000;r_len 1.000000; 				 FrameHeader_len 8; ColorMap_level 1; 				 Color_mode 0; ColorMap_inversion 0; 
+[2024-10-18 12:14:19:702][P:6592:14252][ERROR][ColorImageEngineServer.cpp:177] Open HW failed : 11
+[2024-10-18 12:14:19:703][P:6592:14252][ERROR][ColorImageEngineServer.cpp:247]  OpenHW Error 11
+[2024-10-18 12:14:19:703][P:6592:14252][ERROR][ColorImageEngineServer.cpp:252]  SetATGC32 Error 1
+[2024-10-18 12:14:19:709][P:6592:14252][ERROR][ColorImageEngineServer.cpp:256]  SetApo Error 1
+[2024-10-18 12:14:19:713][P:6592:14252][ERROR][ColorImageEngineServer.cpp:260]  SetApoComp Error 1
+[2024-10-18 12:31:23:627][P:17128:1272][ERROR][ColorImageEngineServer.cpp:177] Open HW failed : 11
+[2024-10-18 12:31:23:628][P:17128:1272][ERROR][ColorImageEngineServer.cpp:247]  OpenHW Error 11
+[2024-10-18 12:31:23:628][P:17128:1272][ERROR][ColorImageEngineServer.cpp:252]  SetATGC32 Error 1
+[2024-10-18 12:31:23:629][P:17128:1272][ERROR][ColorImageEngineServer.cpp:256]  SetApo Error 1
+[2024-10-18 12:31:23:630][P:17128:1272][ERROR][ColorImageEngineServer.cpp:260]  SetApoComp Error 1
+[2024-10-18 12:31:28:646][P:17128:1272][ERROR][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1812] Algorithm Set Error : -214
+[2024-10-18 12:31:28:646][P:17128:1272][ERROR][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1902] B_set Depth_level 2; Gain 50.000000; DR 60.000000; SRI_level 5;				 Correlation_level 3; Width 1280; High 960; AD_len 1;				 FrameHeader_len 8; GrayColorMap_level 3; TintMap_level 0;				 TGC_manual[0] 0.000000; TGC_manual[1] 0.000000; TGC_manual[2] 0.000000;				 TGC_manual[3] 0.000000; TGC_manual[4] 0.000000; TGC_manual[5] 0.000000;				 NE_on_off 0; NE_Tx_angle 0 ; NE_line_len 0 
+[2024-10-18 12:31:28:646][P:17128:1272][ERROR][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1919] C_set Depth_level 2; WallFilter_level 1; Gain 50.000000; 				 ColorPriority_level 2;FrameCorrelation_level 2;				 Rx_start 0; Rx_num 12; Rx_idx 0; 				 Rx_len 8; Rx_scan_cross 3; 				 Width 1280; High 960; W_idx 26; W_len 0;				 H_idx 0; H_len 0; Theta 0.000000; 				 phi 0.000000; delta 0.000000; radius 0.000000;r_len 1.000000; 				 FrameHeader_len 8; ColorMap_level 1; 				 Color_mode 0; ColorMap_inversion 0; 
+[2024-10-18 14:49:42:149][P:16648:2656][ERROR][ColorImageEngineServer.cpp:177] Open HW failed : 11
+[2024-10-18 14:49:42:149][P:16648:2656][ERROR][ColorImageEngineServer.cpp:247]  OpenHW Error 11
+[2024-10-18 14:49:42:150][P:16648:2656][ERROR][ColorImageEngineServer.cpp:252]  SetATGC32 Error 1
+[2024-10-18 14:49:42:156][P:16648:2656][ERROR][ColorImageEngineServer.cpp:256]  SetApo Error 1
+[2024-10-18 14:49:42:157][P:16648:2656][ERROR][ColorImageEngineServer.cpp:260]  SetApoComp Error 1
+[2024-10-18 14:51:23:886][P:12176:2196][ERROR][ColorImageEngineServer.cpp:177] Open HW failed : 11
+[2024-10-18 14:51:23:886][P:12176:2196][ERROR][ColorImageEngineServer.cpp:247]  OpenHW Error 11
+[2024-10-18 14:51:23:887][P:12176:2196][ERROR][ColorImageEngineServer.cpp:252]  SetATGC32 Error 1
+[2024-10-18 14:51:23:888][P:12176:2196][ERROR][ColorImageEngineServer.cpp:256]  SetApo Error 1
+[2024-10-18 14:51:23:889][P:12176:2196][ERROR][ColorImageEngineServer.cpp:260]  SetApoComp Error 1
+[2024-10-18 14:53:10:797][P:13612:480][ERROR][ColorImageEngineServer.cpp:177] Open HW failed : 11
+[2024-10-18 14:53:10:798][P:13612:480][ERROR][ColorImageEngineServer.cpp:247]  OpenHW Error 11
+[2024-10-18 14:53:10:798][P:13612:480][ERROR][ColorImageEngineServer.cpp:252]  SetATGC32 Error 1
+[2024-10-18 14:53:10:799][P:13612:480][ERROR][ColorImageEngineServer.cpp:256]  SetApo Error 1
+[2024-10-18 14:53:10:800][P:13612:480][ERROR][ColorImageEngineServer.cpp:260]  SetApoComp Error 1
+[2024-10-18 15:24:03:697][P:7984:7408][ERROR][ColorImageEngineServer.cpp:177] Open HW failed : 11
+[2024-10-18 15:24:03:698][P:7984:7408][ERROR][ColorImageEngineServer.cpp:247]  OpenHW Error 11
+[2024-10-18 15:24:03:698][P:7984:7408][ERROR][ColorImageEngineServer.cpp:252]  SetATGC32 Error 1
+[2024-10-18 15:24:03:699][P:7984:7408][ERROR][ColorImageEngineServer.cpp:256]  SetApo Error 1
+[2024-10-18 15:24:03:700][P:7984:7408][ERROR][ColorImageEngineServer.cpp:260]  SetApoComp Error 1
+[2024-10-18 15:24:27:687][P:7984:7408][ERROR][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1812] Algorithm Set Error : -214
+[2024-10-18 15:24:27:687][P:7984:7408][ERROR][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1902] B_set Depth_level 2; Gain 50.000000; DR 60.000000; SRI_level 5;				 Correlation_level 3; Width 1280; High 960; AD_len 1;				 FrameHeader_len 8; GrayColorMap_level 3; TintMap_level 0;				 TGC_manual[0] 0.000000; TGC_manual[1] 0.000000; TGC_manual[2] 0.000000;				 TGC_manual[3] 0.000000; TGC_manual[4] 0.000000; TGC_manual[5] 0.000000;				 NE_on_off 0; NE_Tx_angle 0 ; NE_line_len 0 
+[2024-10-18 15:24:27:687][P:7984:7408][ERROR][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1919] C_set Depth_level 2; WallFilter_level 1; Gain 50.000000; 				 ColorPriority_level 2;FrameCorrelation_level 2;				 Rx_start 0; Rx_num 12; Rx_idx 0; 				 Rx_len 8; Rx_scan_cross 3; 				 Width 1280; High 960; W_idx 26; W_len 0;				 H_idx 0; H_len 0; Theta 0.000000; 				 phi 0.000000; delta 0.000000; radius 0.000000;r_len 1.000000; 				 FrameHeader_len 8; ColorMap_level 1; 				 Color_mode 0; ColorMap_inversion 0; 
+[2024-10-18 15:30:56:771][P:16620:5828][ERROR][ColorImageEngineServer.cpp:177] Open HW failed : 11
+[2024-10-18 15:30:56:771][P:16620:5828][ERROR][ColorImageEngineServer.cpp:247]  OpenHW Error 11
+[2024-10-18 15:30:56:772][P:16620:5828][ERROR][ColorImageEngineServer.cpp:252]  SetATGC32 Error 1
+[2024-10-18 15:30:56:773][P:16620:5828][ERROR][ColorImageEngineServer.cpp:256]  SetApo Error 1
+[2024-10-18 15:30:56:774][P:16620:5828][ERROR][ColorImageEngineServer.cpp:260]  SetApoComp Error 1
+[2024-10-18 15:33:03:998][P:7164:15816][ERROR][ColorImageEngineServer.cpp:177] Open HW failed : 11
+[2024-10-18 15:33:03:999][P:7164:15816][ERROR][ColorImageEngineServer.cpp:247]  OpenHW Error 11
+[2024-10-18 15:33:03:999][P:7164:15816][ERROR][ColorImageEngineServer.cpp:252]  SetATGC32 Error 1
+[2024-10-18 15:33:04:000][P:7164:15816][ERROR][ColorImageEngineServer.cpp:256]  SetApo Error 1
+[2024-10-18 15:33:04:001][P:7164:15816][ERROR][ColorImageEngineServer.cpp:260]  SetApoComp Error 1
+[2024-10-18 15:43:49:071][P:17192:17724][ERROR][ColorImageEngineServer.cpp:177] Open HW failed : 11
+[2024-10-18 15:43:49:072][P:17192:17724][ERROR][ColorImageEngineServer.cpp:247]  OpenHW Error 11
+[2024-10-18 15:43:49:072][P:17192:17724][ERROR][ColorImageEngineServer.cpp:252]  SetATGC32 Error 1
+[2024-10-18 15:43:49:073][P:17192:17724][ERROR][ColorImageEngineServer.cpp:256]  SetApo Error 1
+[2024-10-18 15:43:49:074][P:17192:17724][ERROR][ColorImageEngineServer.cpp:260]  SetApoComp Error 1
+[2024-10-25 09:56:05:451][P:11896:6316][ERROR][ColorImageEngineServer.cpp:177] Open HW failed : 11
+[2024-10-25 09:56:05:451][P:11896:6316][ERROR][ColorImageEngineServer.cpp:247]  OpenHW Error 11
+[2024-10-25 09:56:05:452][P:11896:6316][ERROR][ColorImageEngineServer.cpp:252]  SetATGC32 Error 1
+[2024-10-25 09:56:05:457][P:11896:6316][ERROR][ColorImageEngineServer.cpp:256]  SetApo Error 1
+[2024-10-25 09:56:05:461][P:11896:6316][ERROR][ColorImageEngineServer.cpp:260]  SetApoComp Error 1
+[2024-10-25 09:58:56:689][P:22844:8568][ERROR][ColorImageEngineServer.cpp:177] Open HW failed : 11
+[2024-10-25 09:58:56:690][P:22844:8568][ERROR][ColorImageEngineServer.cpp:247]  OpenHW Error 11
+[2024-10-25 09:58:56:690][P:22844:8568][ERROR][ColorImageEngineServer.cpp:252]  SetATGC32 Error 1
+[2024-10-25 09:58:56:691][P:22844:8568][ERROR][ColorImageEngineServer.cpp:256]  SetApo Error 1
+[2024-10-25 09:58:56:692][P:22844:8568][ERROR][ColorImageEngineServer.cpp:260]  SetApoComp Error 1
+[2024-10-25 10:31:34:379][P:16652:14248][ERROR][ColorImageEngineServer.cpp:177] Open HW failed : 11
+[2024-10-25 10:31:34:380][P:16652:14248][ERROR][ColorImageEngineServer.cpp:247]  OpenHW Error 11
+[2024-10-25 10:31:34:380][P:16652:14248][ERROR][ColorImageEngineServer.cpp:252]  SetATGC32 Error 1
+[2024-10-25 10:31:34:381][P:16652:14248][ERROR][ColorImageEngineServer.cpp:256]  SetApo Error 1
+[2024-10-25 10:31:34:382][P:16652:14248][ERROR][ColorImageEngineServer.cpp:260]  SetApoComp Error 1
+[2024-10-25 10:32:19:686][P:22376:17516][ERROR][ColorImageEngineServer.cpp:177] Open HW failed : 11
+[2024-10-25 10:32:19:687][P:22376:17516][ERROR][ColorImageEngineServer.cpp:247]  OpenHW Error 11
+[2024-10-25 10:32:19:688][P:22376:17516][ERROR][ColorImageEngineServer.cpp:252]  SetATGC32 Error 1
+[2024-10-25 10:32:19:689][P:22376:17516][ERROR][ColorImageEngineServer.cpp:256]  SetApo Error 1
+[2024-10-25 10:32:19:690][P:22376:17516][ERROR][ColorImageEngineServer.cpp:260]  SetApoComp Error 1
+[2024-10-25 10:33:21:843][P:3260:26656][ERROR][ColorImageEngineServer.cpp:177] Open HW failed : 11
+[2024-10-25 10:33:21:843][P:3260:26656][ERROR][ColorImageEngineServer.cpp:247]  OpenHW Error 11
+[2024-10-25 10:33:21:843][P:3260:26656][ERROR][ColorImageEngineServer.cpp:252]  SetATGC32 Error 1
+[2024-10-25 10:33:21:844][P:3260:26656][ERROR][ColorImageEngineServer.cpp:256]  SetApo Error 1
+[2024-10-25 10:33:21:845][P:3260:26656][ERROR][ColorImageEngineServer.cpp:260]  SetApoComp Error 1
+[2024-10-25 10:35:35:800][P:27224:13748][ERROR][ColorImageEngineServer.cpp:177] Open HW failed : 11
+[2024-10-25 10:35:35:800][P:27224:13748][ERROR][ColorImageEngineServer.cpp:247]  OpenHW Error 11
+[2024-10-25 10:35:35:801][P:27224:13748][ERROR][ColorImageEngineServer.cpp:252]  SetATGC32 Error 1
+[2024-10-25 10:35:35:802][P:27224:13748][ERROR][ColorImageEngineServer.cpp:256]  SetApo Error 1
+[2024-10-25 10:35:35:802][P:27224:13748][ERROR][ColorImageEngineServer.cpp:260]  SetApoComp Error 1
+[2024-10-25 10:40:52:832][P:18152:12960][ERROR][ColorImageEngineServer.cpp:177] Open HW failed : 11
+[2024-10-25 10:40:52:833][P:18152:12960][ERROR][ColorImageEngineServer.cpp:247]  OpenHW Error 11
+[2024-10-25 10:40:52:833][P:18152:12960][ERROR][ColorImageEngineServer.cpp:252]  SetATGC32 Error 1
+[2024-10-25 10:40:52:834][P:18152:12960][ERROR][ColorImageEngineServer.cpp:256]  SetApo Error 1
+[2024-10-25 10:40:52:835][P:18152:12960][ERROR][ColorImageEngineServer.cpp:260]  SetApoComp Error 1
+[2024-10-25 10:42:47:029][P:25428:10488][ERROR][ColorImageEngineServer.cpp:177] Open HW failed : 11
+[2024-10-25 10:42:47:029][P:25428:10488][ERROR][ColorImageEngineServer.cpp:247]  OpenHW Error 11
+[2024-10-25 10:42:47:030][P:25428:10488][ERROR][ColorImageEngineServer.cpp:252]  SetATGC32 Error 1
+[2024-10-25 10:42:47:030][P:25428:10488][ERROR][ColorImageEngineServer.cpp:256]  SetApo Error 1
+[2024-10-25 10:42:47:031][P:25428:10488][ERROR][ColorImageEngineServer.cpp:260]  SetApoComp Error 1
+[2024-10-25 10:45:46:377][P:12404:5832][ERROR][ColorImageEngineServer.cpp:177] Open HW failed : 11
+[2024-10-25 10:45:46:377][P:12404:5832][ERROR][ColorImageEngineServer.cpp:247]  OpenHW Error 11
+[2024-10-25 10:45:46:378][P:12404:5832][ERROR][ColorImageEngineServer.cpp:252]  SetATGC32 Error 1
+[2024-10-25 10:45:46:379][P:12404:5832][ERROR][ColorImageEngineServer.cpp:256]  SetApo Error 1
+[2024-10-25 10:45:46:380][P:12404:5832][ERROR][ColorImageEngineServer.cpp:260]  SetApoComp Error 1
+[2024-10-25 11:10:04:325][P:13796:24352][ERROR][ColorImageEngineServer.cpp:177] Open HW failed : 11
+[2024-10-25 11:10:04:325][P:13796:24352][ERROR][ColorImageEngineServer.cpp:247]  OpenHW Error 11
+[2024-10-25 11:10:04:325][P:13796:24352][ERROR][ColorImageEngineServer.cpp:252]  SetATGC32 Error 1
+[2024-10-25 11:10:04:326][P:13796:24352][ERROR][ColorImageEngineServer.cpp:256]  SetApo Error 1
+[2024-10-25 11:10:04:327][P:13796:24352][ERROR][ColorImageEngineServer.cpp:260]  SetApoComp Error 1
+[2024-10-25 11:12:06:908][P:22404:2020][ERROR][ColorImageEngineServer.cpp:177] Open HW failed : 11
+[2024-10-25 11:12:06:909][P:22404:2020][ERROR][ColorImageEngineServer.cpp:247]  OpenHW Error 11
+[2024-10-25 11:12:06:909][P:22404:2020][ERROR][ColorImageEngineServer.cpp:252]  SetATGC32 Error 1
+[2024-10-25 11:12:06:910][P:22404:2020][ERROR][ColorImageEngineServer.cpp:256]  SetApo Error 1
+[2024-10-25 11:12:06:911][P:22404:2020][ERROR][ColorImageEngineServer.cpp:260]  SetApoComp Error 1
+[2024-10-25 11:13:37:744][P:19264:21592][ERROR][ColorImageEngineServer.cpp:177] Open HW failed : 11
+[2024-10-25 11:13:37:744][P:19264:21592][ERROR][ColorImageEngineServer.cpp:247]  OpenHW Error 11
+[2024-10-25 11:13:37:745][P:19264:21592][ERROR][ColorImageEngineServer.cpp:252]  SetATGC32 Error 1
+[2024-10-25 11:13:37:745][P:19264:21592][ERROR][ColorImageEngineServer.cpp:256]  SetApo Error 1
+[2024-10-25 11:13:37:746][P:19264:21592][ERROR][ColorImageEngineServer.cpp:260]  SetApoComp Error 1
+[2024-10-25 11:14:22:878][P:17788:12816][ERROR][ColorImageEngineServer.cpp:177] Open HW failed : 11
+[2024-10-25 11:14:22:879][P:17788:12816][ERROR][ColorImageEngineServer.cpp:247]  OpenHW Error 11
+[2024-10-25 11:14:22:879][P:17788:12816][ERROR][ColorImageEngineServer.cpp:252]  SetATGC32 Error 1
+[2024-10-25 11:14:22:880][P:17788:12816][ERROR][ColorImageEngineServer.cpp:256]  SetApo Error 1
+[2024-10-25 11:14:22:881][P:17788:12816][ERROR][ColorImageEngineServer.cpp:260]  SetApoComp Error 1
+[2024-10-25 11:16:09:906][P:11252:17492][ERROR][ColorImageEngineServer.cpp:177] Open HW failed : 11
+[2024-10-25 11:16:09:906][P:11252:17492][ERROR][ColorImageEngineServer.cpp:247]  OpenHW Error 11
+[2024-10-25 11:16:09:906][P:11252:17492][ERROR][ColorImageEngineServer.cpp:252]  SetATGC32 Error 1
+[2024-10-25 11:16:09:907][P:11252:17492][ERROR][ColorImageEngineServer.cpp:256]  SetApo Error 1
+[2024-10-25 11:16:09:908][P:11252:17492][ERROR][ColorImageEngineServer.cpp:260]  SetApoComp Error 1
+[2024-10-25 11:16:41:543][P:8832:20984][ERROR][ColorImageEngineServer.cpp:177] Open HW failed : 11
+[2024-10-25 11:16:41:544][P:8832:20984][ERROR][ColorImageEngineServer.cpp:247]  OpenHW Error 11
+[2024-10-25 11:16:41:544][P:8832:20984][ERROR][ColorImageEngineServer.cpp:252]  SetATGC32 Error 1
+[2024-10-25 11:16:41:545][P:8832:20984][ERROR][ColorImageEngineServer.cpp:256]  SetApo Error 1
+[2024-10-25 11:16:41:546][P:8832:20984][ERROR][ColorImageEngineServer.cpp:260]  SetApoComp Error 1
+[2024-10-25 11:17:05:851][P:18744:8556][ERROR][ColorImageEngineServer.cpp:177] Open HW failed : 11
+[2024-10-25 11:17:05:852][P:18744:8556][ERROR][ColorImageEngineServer.cpp:247]  OpenHW Error 11
+[2024-10-25 11:17:05:852][P:18744:8556][ERROR][ColorImageEngineServer.cpp:252]  SetATGC32 Error 1
+[2024-10-25 11:17:05:853][P:18744:8556][ERROR][ColorImageEngineServer.cpp:256]  SetApo Error 1
+[2024-10-25 11:17:05:854][P:18744:8556][ERROR][ColorImageEngineServer.cpp:260]  SetApoComp Error 1
+[2024-10-25 11:17:34:446][P:28668:4260][ERROR][ColorImageEngineServer.cpp:177] Open HW failed : 11
+[2024-10-25 11:17:34:446][P:28668:4260][ERROR][ColorImageEngineServer.cpp:247]  OpenHW Error 11
+[2024-10-25 11:17:34:446][P:28668:4260][ERROR][ColorImageEngineServer.cpp:252]  SetATGC32 Error 1
+[2024-10-25 11:17:34:447][P:28668:4260][ERROR][ColorImageEngineServer.cpp:256]  SetApo Error 1
+[2024-10-25 11:17:34:448][P:28668:4260][ERROR][ColorImageEngineServer.cpp:260]  SetApoComp Error 1
+[2024-10-25 11:18:07:805][P:26232:13884][ERROR][ColorImageEngineServer.cpp:177] Open HW failed : 11
+[2024-10-25 11:18:07:806][P:26232:13884][ERROR][ColorImageEngineServer.cpp:247]  OpenHW Error 11
+[2024-10-25 11:18:07:806][P:26232:13884][ERROR][ColorImageEngineServer.cpp:252]  SetATGC32 Error 1
+[2024-10-25 11:18:07:807][P:26232:13884][ERROR][ColorImageEngineServer.cpp:256]  SetApo Error 1
+[2024-10-25 11:18:07:808][P:26232:13884][ERROR][ColorImageEngineServer.cpp:260]  SetApoComp Error 1
+[2024-10-25 11:19:51:116][P:8960:8232][ERROR][ColorImageEngineServer.cpp:177] Open HW failed : 11
+[2024-10-25 11:19:51:117][P:8960:8232][ERROR][ColorImageEngineServer.cpp:247]  OpenHW Error 11
+[2024-10-25 11:19:51:117][P:8960:8232][ERROR][ColorImageEngineServer.cpp:252]  SetATGC32 Error 1
+[2024-10-25 11:19:51:118][P:8960:8232][ERROR][ColorImageEngineServer.cpp:256]  SetApo Error 1
+[2024-10-25 11:19:51:119][P:8960:8232][ERROR][ColorImageEngineServer.cpp:260]  SetApoComp Error 1
+[2024-10-25 11:22:20:263][P:12804:19904][ERROR][ColorImageEngineServer.cpp:177] Open HW failed : 11
+[2024-10-25 11:22:20:264][P:12804:19904][ERROR][ColorImageEngineServer.cpp:247]  OpenHW Error 11
+[2024-10-25 11:22:20:264][P:12804:19904][ERROR][ColorImageEngineServer.cpp:252]  SetATGC32 Error 1
+[2024-10-25 11:22:20:265][P:12804:19904][ERROR][ColorImageEngineServer.cpp:256]  SetApo Error 1
+[2024-10-25 11:22:20:266][P:12804:19904][ERROR][ColorImageEngineServer.cpp:260]  SetApoComp Error 1
+[2024-10-25 11:24:44:865][P:9244:28036][ERROR][ColorImageEngineServer.cpp:177] Open HW failed : 11
+[2024-10-25 11:24:44:866][P:9244:28036][ERROR][ColorImageEngineServer.cpp:247]  OpenHW Error 11
+[2024-10-25 11:24:44:866][P:9244:28036][ERROR][ColorImageEngineServer.cpp:252]  SetATGC32 Error 1
+[2024-10-25 11:24:44:867][P:9244:28036][ERROR][ColorImageEngineServer.cpp:256]  SetApo Error 1
+[2024-10-25 11:24:44:868][P:9244:28036][ERROR][ColorImageEngineServer.cpp:260]  SetApoComp Error 1
+[2024-10-25 11:26:10:966][P:20304:9912][ERROR][ColorImageEngineServer.cpp:177] Open HW failed : 11
+[2024-10-25 11:26:10:966][P:20304:9912][ERROR][ColorImageEngineServer.cpp:247]  OpenHW Error 11
+[2024-10-25 11:26:10:966][P:20304:9912][ERROR][ColorImageEngineServer.cpp:252]  SetATGC32 Error 1
+[2024-10-25 11:26:10:967][P:20304:9912][ERROR][ColorImageEngineServer.cpp:256]  SetApo Error 1
+[2024-10-25 11:26:10:968][P:20304:9912][ERROR][ColorImageEngineServer.cpp:260]  SetApoComp Error 1
+[2024-10-25 11:46:21:099][P:22676:13392][ERROR][ColorImageEngineServer.cpp:177] Open HW failed : 11
+[2024-10-25 11:46:21:100][P:22676:13392][ERROR][ColorImageEngineServer.cpp:247]  OpenHW Error 11
+[2024-10-25 11:46:21:100][P:22676:13392][ERROR][ColorImageEngineServer.cpp:252]  SetATGC32 Error 1
+[2024-10-25 11:46:21:102][P:22676:13392][ERROR][ColorImageEngineServer.cpp:256]  SetApo Error 1
+[2024-10-25 11:46:21:103][P:22676:13392][ERROR][ColorImageEngineServer.cpp:260]  SetApoComp Error 1
+[2024-10-25 11:48:29:684][P:21624:25936][ERROR][ColorImageEngineServer.cpp:177] Open HW failed : 11
+[2024-10-25 11:48:29:684][P:21624:25936][ERROR][ColorImageEngineServer.cpp:247]  OpenHW Error 11
+[2024-10-25 11:48:29:685][P:21624:25936][ERROR][ColorImageEngineServer.cpp:252]  SetATGC32 Error 1
+[2024-10-25 11:48:29:686][P:21624:25936][ERROR][ColorImageEngineServer.cpp:256]  SetApo Error 1
+[2024-10-25 11:48:29:687][P:21624:25936][ERROR][ColorImageEngineServer.cpp:260]  SetApoComp Error 1
+[2024-10-25 11:57:10:753][P:12908:15420][ERROR][ColorImageEngineServer.cpp:177] Open HW failed : 11
+[2024-10-25 11:57:10:754][P:12908:15420][ERROR][ColorImageEngineServer.cpp:247]  OpenHW Error 11
+[2024-10-25 11:57:10:754][P:12908:15420][ERROR][ColorImageEngineServer.cpp:252]  SetATGC32 Error 1
+[2024-10-25 11:57:10:755][P:12908:15420][ERROR][ColorImageEngineServer.cpp:256]  SetApo Error 1
+[2024-10-25 11:57:10:756][P:12908:15420][ERROR][ColorImageEngineServer.cpp:260]  SetApoComp Error 1
+[2024-10-25 12:03:51:693][P:15224:17040][ERROR][ColorImageEngineServer.cpp:177] Open HW failed : 11
+[2024-10-25 12:03:51:694][P:15224:17040][ERROR][ColorImageEngineServer.cpp:247]  OpenHW Error 11
+[2024-10-25 12:03:51:694][P:15224:17040][ERROR][ColorImageEngineServer.cpp:252]  SetATGC32 Error 1
+[2024-10-25 12:03:51:695][P:15224:17040][ERROR][ColorImageEngineServer.cpp:256]  SetApo Error 1
+[2024-10-25 12:03:51:696][P:15224:17040][ERROR][ColorImageEngineServer.cpp:260]  SetApoComp Error 1
+[2024-10-25 12:07:16:851][P:8332:14404][ERROR][ColorImageEngineServer.cpp:177] Open HW failed : 11
+[2024-10-25 12:07:16:851][P:8332:14404][ERROR][ColorImageEngineServer.cpp:247]  OpenHW Error 11
+[2024-10-25 12:07:16:851][P:8332:14404][ERROR][ColorImageEngineServer.cpp:252]  SetATGC32 Error 1
+[2024-10-25 12:07:16:853][P:8332:14404][ERROR][ColorImageEngineServer.cpp:256]  SetApo Error 1
+[2024-10-25 12:07:16:854][P:8332:14404][ERROR][ColorImageEngineServer.cpp:260]  SetApoComp Error 1
+[2024-10-25 12:08:07:598][P:26028:26388][ERROR][ColorImageEngineServer.cpp:177] Open HW failed : 11
+[2024-10-25 12:08:07:598][P:26028:26388][ERROR][ColorImageEngineServer.cpp:247]  OpenHW Error 11
+[2024-10-25 12:08:07:599][P:26028:26388][ERROR][ColorImageEngineServer.cpp:252]  SetATGC32 Error 1
+[2024-10-25 12:08:07:600][P:26028:26388][ERROR][ColorImageEngineServer.cpp:256]  SetApo Error 1
+[2024-10-25 12:08:07:601][P:26028:26388][ERROR][ColorImageEngineServer.cpp:260]  SetApoComp Error 1

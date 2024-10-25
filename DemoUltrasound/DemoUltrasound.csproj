@@ -91,6 +91,8 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="DopplerDataInfo.cs" />
+    <Compile Include="NativeMethods.cs" />
     <Compile Include="ColorMapControl.xaml.cs">
       <DependentUpon>ColorMapControl.xaml</DependentUpon>
     </Compile>
@@ -126,6 +128,7 @@
       <DependentUpon>ScaleMarksControl.xaml</DependentUpon>
     </Compile>
     <Compile Include="SettingConfig.cs" />
+    <Compile Include="UltrasoundListener.cs" />
     <Page Include="BC_Mode_UltraSound_Control.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
