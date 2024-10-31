@@ -1091,3 +1091,1130 @@
 [2024-10-25 12:08:07:563][P:26028:26388][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1981] m_pPW->InitParam cost time 0 ms
 [2024-10-25 12:08:07:563][P:26028:26388][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 0 ms
 [2024-10-25 12:08:07:601][P:26028:26388][INFO][ColorImageEngineServer.cpp:268]  SendStartCmd 1
+[2024-10-25 12:13:54:386][P:14964:456][INFO][ColorImageEngineServer.cpp:70] ---- ColorImageEngineServer ---- 
+[2024-10-25 12:14:02:251][P:14964:456][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:510] BuildOpenCL cost time 134 ms
+[2024-10-25 12:14:02:252][P:14964:456][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1981] m_pPW->InitParam cost time 0 ms
+[2024-10-25 12:14:02:257][P:14964:456][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 2 ms
+[2024-10-25 12:14:03:613][P:14964:456][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 1 ms
+[2024-10-25 12:14:03:615][P:14964:456][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1981] m_pPW->InitParam cost time 0 ms
+[2024-10-25 12:14:03:615][P:14964:456][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 0 ms
+[2024-10-25 12:14:03:651][P:14964:456][INFO][ColorImageEngineServer.cpp:268]  SendStartCmd 1
+[2024-10-25 12:15:22:905][P:14324:21520][INFO][ColorImageEngineServer.cpp:70] ---- ColorImageEngineServer ---- 
+[2024-10-25 12:16:26:532][P:19608:10352][INFO][ColorImageEngineServer.cpp:70] ---- ColorImageEngineServer ---- 
+[2024-10-25 12:16:34:531][P:19608:10352][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:510] BuildOpenCL cost time 146 ms
+[2024-10-25 12:16:34:533][P:19608:10352][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1981] m_pPW->InitParam cost time 0 ms
+[2024-10-25 12:16:34:537][P:19608:10352][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 0 ms
+[2024-10-25 12:16:35:897][P:19608:10352][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 1 ms
+[2024-10-25 12:16:35:899][P:19608:10352][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1981] m_pPW->InitParam cost time 0 ms
+[2024-10-25 12:16:35:899][P:19608:10352][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 0 ms
+[2024-10-25 12:16:35:937][P:19608:10352][INFO][ColorImageEngineServer.cpp:268]  SendStartCmd 1
+[2024-10-25 12:32:36:399][P:7144:3120][INFO][ColorImageEngineServer.cpp:70] ---- ColorImageEngineServer ---- 
+[2024-10-25 12:32:44:293][P:7144:3120][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:510] BuildOpenCL cost time 136 ms
+[2024-10-25 12:32:44:294][P:7144:3120][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1981] m_pPW->InitParam cost time 0 ms
+[2024-10-25 12:32:44:298][P:7144:3120][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 1 ms
+[2024-10-25 12:32:45:661][P:7144:3120][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 0 ms
+[2024-10-25 12:32:45:663][P:7144:3120][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1981] m_pPW->InitParam cost time 0 ms
+[2024-10-25 12:32:45:664][P:7144:3120][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 1 ms
+[2024-10-25 12:32:45:700][P:7144:3120][INFO][ColorImageEngineServer.cpp:268]  SendStartCmd 1
+[2024-10-26 16:48:30:592][P:25336:22172][INFO][ColorImageEngineServer.cpp:70] ---- ColorImageEngineServer ---- 
+[2024-10-26 16:48:38:506][P:25336:22172][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:510] BuildOpenCL cost time 264 ms
+[2024-10-26 16:48:38:564][P:25336:22172][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1981] m_pPW->InitParam cost time 3 ms
+[2024-10-26 16:48:38:610][P:25336:22172][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 0 ms
+[2024-10-26 16:48:39:783][P:25336:22172][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 1 ms
+[2024-10-26 16:48:39:785][P:25336:22172][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1981] m_pPW->InitParam cost time 0 ms
+[2024-10-26 16:48:39:785][P:25336:22172][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 0 ms
+[2024-10-26 16:48:39:831][P:25336:22172][INFO][ColorImageEngineServer.cpp:268]  SendStartCmd 1
+[2024-10-26 16:49:06:062][P:25336:22172][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1981] m_pPW->InitParam cost time 1 ms
+[2024-10-26 16:49:06:065][P:25336:22172][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 3 ms
+[2024-10-26 16:49:06:093][P:25336:22172][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 2 ms
+[2024-10-26 16:49:06:877][P:25336:13064][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 4 ms
+[2024-10-26 16:49:06:885][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -93
+[2024-10-26 16:49:07:243][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-26 16:49:07:244][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-26 16:49:07:245][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-26 16:49:07:263][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-26 16:49:07:316][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-26 16:49:07:378][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-26 16:49:07:431][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-26 16:49:07:483][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-26 16:49:07:537][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-26 16:49:07:599][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-26 16:49:07:652][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-26 16:49:07:704][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-26 16:49:07:767][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-26 16:49:07:820][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-26 16:49:07:872][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-26 16:49:07:925][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-26 16:49:07:988][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-26 16:49:08:040][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-26 16:49:08:093][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-26 16:49:08:156][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-26 16:49:08:208][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-26 16:49:08:261][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-26 16:49:08:315][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-26 16:49:08:376][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-26 16:49:08:429][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-26 16:49:08:481][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-26 16:49:08:544][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-26 16:49:08:597][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-26 16:49:08:650][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-26 16:49:08:704][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-26 16:49:08:765][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-26 16:49:08:818][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-26 16:49:08:871][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-26 16:49:08:933][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-26 16:49:08:986][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-26 16:49:09:039][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-26 16:49:09:093][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-26 16:49:09:154][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-26 16:49:09:207][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-26 16:49:09:259][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-26 16:49:09:322][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-26 16:49:09:375][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-26 16:49:09:427][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-26 16:49:09:481][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-26 16:49:09:543][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-26 16:49:09:596][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-26 16:49:09:650][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-26 16:49:09:711][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-26 16:49:09:764][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-26 16:49:09:817][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-26 16:49:09:870][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-26 16:49:09:932][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-26 16:49:09:985][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-26 16:49:10:039][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-26 16:49:10:100][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-26 16:49:10:153][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-26 16:49:10:205][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-26 16:49:10:259][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-26 16:49:10:321][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-26 16:49:10:373][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-26 16:49:10:428][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-26 16:49:10:489][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-26 16:49:10:541][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-26 16:49:10:594][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-26 16:49:10:648][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-26 16:49:10:710][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-26 16:49:10:763][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-26 16:49:10:816][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-26 16:49:10:878][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-26 16:49:10:930][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-26 16:49:10:983][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-26 16:49:11:037][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-26 16:49:11:098][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-26 16:49:11:151][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-26 16:49:11:205][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-26 16:49:11:266][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-26 16:49:11:319][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-26 16:49:11:373][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-26 16:49:11:427][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-26 16:49:11:487][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-26 16:49:11:541][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-26 16:49:11:594][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-26 16:49:11:655][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-26 16:49:11:709][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-26 16:49:11:762][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-26 16:49:11:815][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-26 16:49:11:876][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-26 16:49:11:929][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-26 16:49:11:983][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-26 16:49:12:044][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-26 16:49:12:097][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-26 16:49:12:151][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-26 16:49:12:204][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-26 16:49:12:265][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-26 16:49:12:318][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-26 16:49:12:372][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-26 16:49:12:433][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-26 16:49:12:485][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-26 16:49:12:540][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-26 16:49:12:593][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-26 16:49:12:654][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-26 16:49:12:731][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-26 16:49:12:760][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-26 16:49:12:822][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-26 16:49:12:875][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-26 16:49:12:929][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-26 16:49:12:981][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-26 16:49:13:043][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-26 16:49:13:097][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-26 16:49:13:149][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-26 16:49:13:210][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-26 16:49:13:264][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-26 16:49:13:318][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-26 16:49:13:370][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-26 16:49:13:410][P:25336:22172][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 0 ms
+[2024-10-26 16:49:13:412][P:25336:22172][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1981] m_pPW->InitParam cost time 0 ms
+[2024-10-26 16:49:13:412][P:25336:22172][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 0 ms
+[2024-10-26 16:49:13:449][P:25336:22172][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 1 ms
+[2024-10-26 16:49:13:483][P:25336:22172][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 0 ms
+[2024-10-26 16:49:13:514][P:25336:22172][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 0 ms
+[2024-10-26 16:49:13:943][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -200
+[2024-10-26 16:49:14:044][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -200
+[2024-10-26 16:49:14:146][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -200
+[2024-10-26 16:49:14:248][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -200
+[2024-10-26 16:49:14:347][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -200
+[2024-10-26 16:49:14:449][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -200
+[2024-10-26 16:49:14:540][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -200
+[2024-10-26 16:49:14:639][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -200
+[2024-10-26 16:49:14:741][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -200
+[2024-10-26 16:49:14:843][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -200
+[2024-10-26 16:49:14:944][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -200
+[2024-10-26 16:49:15:046][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -200
+[2024-10-26 16:49:15:147][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -200
+[2024-10-26 16:49:15:247][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -200
+[2024-10-26 16:49:15:338][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -200
+[2024-10-26 16:49:15:439][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -200
+[2024-10-26 16:49:15:540][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -200
+[2024-10-26 16:49:15:641][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -200
+[2024-10-26 16:49:15:743][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -200
+[2024-10-26 16:49:15:844][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -200
+[2024-10-26 16:49:15:946][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -200
+[2024-10-26 16:49:16:047][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -200
+[2024-10-26 16:49:16:137][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -200
+[2024-10-26 16:49:16:238][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -200
+[2024-10-26 16:49:16:340][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -200
+[2024-10-26 16:49:16:440][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -200
+[2024-10-26 16:49:16:541][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -200
+[2024-10-26 16:49:16:643][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -200
+[2024-10-26 16:49:16:744][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -200
+[2024-10-26 16:49:16:846][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -200
+[2024-10-26 16:49:16:935][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -200
+[2024-10-26 16:49:17:036][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -200
+[2024-10-26 16:49:17:138][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -200
+[2024-10-26 16:49:17:239][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -200
+[2024-10-26 16:49:17:340][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -200
+[2024-10-26 16:49:17:442][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -200
+[2024-10-26 16:49:17:542][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -200
+[2024-10-26 16:49:17:634][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -200
+[2024-10-26 16:49:17:734][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -200
+[2024-10-26 16:49:17:835][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -200
+[2024-10-26 16:49:17:936][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -200
+[2024-10-26 16:49:18:038][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -200
+[2024-10-26 16:49:18:139][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -200
+[2024-10-26 16:49:18:241][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -200
+[2024-10-26 16:49:18:342][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -200
+[2024-10-26 16:49:18:432][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -200
+[2024-10-26 16:49:18:533][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -200
+[2024-10-26 16:49:18:633][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -200
+[2024-10-26 16:49:18:735][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -200
+[2024-10-26 16:49:18:837][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -200
+[2024-10-26 16:49:18:938][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -200
+[2024-10-26 16:49:19:040][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -200
+[2024-10-26 16:49:19:141][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -200
+[2024-10-26 16:49:19:230][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -200
+[2024-10-26 16:49:19:331][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -200
+[2024-10-26 16:49:19:433][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -200
+[2024-10-26 16:49:19:533][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -200
+[2024-10-26 16:49:19:635][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -200
+[2024-10-26 16:49:19:737][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -200
+[2024-10-26 16:49:19:838][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -200
+[2024-10-26 16:49:19:940][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -200
+[2024-10-26 16:49:20:029][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -200
+[2024-10-26 16:49:20:130][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -200
+[2024-10-26 16:49:20:232][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -200
+[2024-10-26 16:49:20:333][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -200
+[2024-10-26 16:49:20:434][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -200
+[2024-10-26 16:49:20:535][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -200
+[2024-10-26 16:49:20:637][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -200
+[2024-10-26 16:49:20:728][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -200
+[2024-10-26 16:49:20:827][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -200
+[2024-10-26 16:49:20:928][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -200
+[2024-10-26 16:49:21:031][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -200
+[2024-10-26 16:49:21:132][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -200
+[2024-10-26 16:49:21:233][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -200
+[2024-10-26 16:49:21:334][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -200
+[2024-10-26 16:49:21:435][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -200
+[2024-10-26 16:49:21:526][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -200
+[2024-10-26 16:49:21:627][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -200
+[2024-10-26 16:49:21:727][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -200
+[2024-10-26 16:49:21:828][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -200
+[2024-10-26 16:49:21:930][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -200
+[2024-10-26 16:49:22:031][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -200
+[2024-10-26 16:49:22:134][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -200
+[2024-10-26 16:49:22:234][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -200
+[2024-10-26 16:49:22:324][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -200
+[2024-10-26 16:49:22:426][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -200
+[2024-10-26 16:49:22:527][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -200
+[2024-10-26 16:49:22:627][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -200
+[2024-10-26 16:49:22:729][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -200
+[2024-10-26 16:49:22:830][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -200
+[2024-10-26 16:49:22:931][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -200
+[2024-10-26 16:49:23:033][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -200
+[2024-10-26 16:49:23:123][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -200
+[2024-10-26 16:49:23:224][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -200
+[2024-10-26 16:49:23:326][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -200
+[2024-10-26 16:49:23:427][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -200
+[2024-10-26 16:49:23:527][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -200
+[2024-10-26 16:49:23:629][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -200
+[2024-10-26 16:49:23:730][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -200
+[2024-10-26 16:49:23:821][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -200
+[2024-10-26 16:49:23:921][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -200
+[2024-10-26 16:49:24:022][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -200
+[2024-10-26 16:49:24:124][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -200
+[2024-10-26 16:49:24:226][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -200
+[2024-10-26 16:49:24:327][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -200
+[2024-10-26 16:49:24:427][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -200
+[2024-10-26 16:49:24:528][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -200
+[2024-10-26 16:49:24:619][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -200
+[2024-10-26 16:49:24:721][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -200
+[2024-10-26 16:49:24:821][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -200
+[2024-10-26 16:49:24:923][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -200
+[2024-10-26 16:49:25:024][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -200
+[2024-10-26 16:49:25:125][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -200
+[2024-10-26 16:49:25:227][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -200
+[2024-10-26 16:49:25:327][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -200
+[2024-10-26 16:49:25:418][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -200
+[2024-10-26 16:49:25:519][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -200
+[2024-10-26 16:49:25:621][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -200
+[2024-10-26 16:49:25:721][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -200
+[2024-10-26 16:49:25:823][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -200
+[2024-10-26 16:49:25:924][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -200
+[2024-10-26 16:49:26:026][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -200
+[2024-10-26 16:49:26:127][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -200
+[2024-10-26 16:49:26:217][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -200
+[2024-10-26 16:49:26:317][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -200
+[2024-10-26 16:49:26:419][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -200
+[2024-10-26 16:49:26:521][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -200
+[2024-10-26 16:49:26:621][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -200
+[2024-10-26 16:49:26:723][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -200
+[2024-10-26 16:49:26:824][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -200
+[2024-10-26 16:49:26:915][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -200
+[2024-10-26 16:49:27:015][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -200
+[2024-10-26 16:49:27:117][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -200
+[2024-10-26 16:49:27:218][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -200
+[2024-10-26 16:49:27:320][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -200
+[2024-10-26 16:49:27:421][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -200
+[2024-10-26 16:49:27:521][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -200
+[2024-10-26 16:49:27:622][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -200
+[2024-10-26 16:49:27:714][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -200
+[2024-10-26 16:49:27:815][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -200
+[2024-10-26 16:49:27:915][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -200
+[2024-10-26 16:49:28:017][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -200
+[2024-10-26 16:49:28:118][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -200
+[2024-10-26 16:49:28:220][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -200
+[2024-10-26 16:49:28:321][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -200
+[2024-10-26 16:49:28:421][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -200
+[2024-10-26 16:49:28:512][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -200
+[2024-10-26 16:49:28:613][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -200
+[2024-10-26 16:49:28:715][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -200
+[2024-10-26 16:49:28:814][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -200
+[2024-10-26 16:49:28:916][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -200
+[2024-10-26 16:49:29:017][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -200
+[2024-10-26 16:49:29:120][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -200
+[2024-10-26 16:49:29:220][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -200
+[2024-10-26 16:49:29:310][P:25336:13064][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -200
+[2024-10-26 16:51:31:480][P:25336:22172][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 0 ms
+[2024-10-26 16:51:31:549][P:25336:22172][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 0 ms
+[2024-10-26 16:51:52:329][P:23456:23008][INFO][ColorImageEngineServer.cpp:70] ---- ColorImageEngineServer ---- 
+[2024-10-26 16:51:58:964][P:23456:23008][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:510] BuildOpenCL cost time 148 ms
+[2024-10-26 16:51:58:966][P:23456:23008][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1981] m_pPW->InitParam cost time 0 ms
+[2024-10-26 16:51:58:969][P:23456:23008][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 1 ms
+[2024-10-26 16:52:00:090][P:23456:23008][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 1 ms
+[2024-10-26 16:52:00:092][P:23456:23008][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1981] m_pPW->InitParam cost time 0 ms
+[2024-10-26 16:52:00:093][P:23456:23008][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 0 ms
+[2024-10-26 16:52:00:129][P:23456:23008][INFO][ColorImageEngineServer.cpp:268]  SendStartCmd 1
+[2024-10-26 16:52:03:589][P:23456:23008][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 0 ms
+[2024-10-26 16:52:03:591][P:23456:23008][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1981] m_pPW->InitParam cost time 0 ms
+[2024-10-26 16:52:03:592][P:23456:23008][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 0 ms
+[2024-10-26 16:52:03:629][P:23456:23008][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 0 ms
+[2024-10-26 16:52:03:674][P:23456:23008][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 2 ms
+[2024-10-26 16:52:03:706][P:23456:23008][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 1 ms
+[2024-10-26 16:52:15:969][P:23456:23008][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1981] m_pPW->InitParam cost time 0 ms
+[2024-10-26 16:52:15:972][P:23456:23008][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 2 ms
+[2024-10-26 16:52:15:975][P:23456:23008][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 2 ms
+[2024-10-26 16:52:15:979][P:23456:23008][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 3 ms
+[2024-10-26 16:52:16:248][P:23456:23008][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 4 ms
+[2024-10-26 16:52:16:281][P:23456:23008][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 2 ms
+[2024-10-26 16:52:16:313][P:23456:23008][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 3 ms
+[2024-10-26 16:52:16:345][P:23456:23008][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 2 ms
+[2024-10-26 16:52:16:657][P:23456:23008][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 1 ms
+[2024-10-26 16:52:16:659][P:23456:23008][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1981] m_pPW->InitParam cost time 0 ms
+[2024-10-26 16:52:16:660][P:23456:23008][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 1 ms
+[2024-10-26 16:52:24:665][P:23456:23008][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 1 ms
+[2024-10-26 16:52:24:666][P:23456:23008][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1981] m_pPW->InitParam cost time 0 ms
+[2024-10-26 16:52:24:668][P:23456:23008][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 2 ms
+[2024-10-26 16:52:24:671][P:23456:23008][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 2 ms
+[2024-10-26 16:52:24:675][P:23456:23008][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 2 ms
+[2024-10-26 16:52:24:708][P:23456:23008][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 3 ms
+[2024-10-26 16:52:24:739][P:23456:23008][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 1 ms
+[2024-10-26 16:52:24:772][P:23456:23008][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 2 ms
+[2024-10-26 16:52:24:803][P:23456:23008][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 1 ms
+[2024-10-26 16:52:24:838][P:23456:23008][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 2 ms
+[2024-10-26 16:52:24:871][P:23456:23008][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 2 ms
+[2024-10-26 16:52:42:560][P:23456:23008][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 2 ms
+[2024-10-26 16:52:42:561][P:23456:23008][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1981] m_pPW->InitParam cost time 0 ms
+[2024-10-26 16:52:42:564][P:23456:23008][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 3 ms
+[2024-10-26 16:52:43:664][P:23456:23008][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 3 ms
+[2024-10-26 16:52:43:665][P:23456:23008][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1981] m_pPW->InitParam cost time 0 ms
+[2024-10-26 16:52:43:667][P:23456:23008][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 1 ms
+[2024-10-26 16:52:43:670][P:23456:23008][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 3 ms
+[2024-10-26 16:52:43:673][P:23456:23008][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 2 ms
+[2024-10-26 16:52:43:706][P:23456:23008][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 2 ms
+[2024-10-26 16:52:43:739][P:23456:23008][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 2 ms
+[2024-10-26 16:52:43:771][P:23456:23008][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 2 ms
+[2024-10-26 16:52:43:804][P:23456:23008][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 2 ms
+[2024-10-26 16:52:44:455][P:23456:23008][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 3 ms
+[2024-10-26 16:52:44:456][P:23456:23008][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1981] m_pPW->InitParam cost time 0 ms
+[2024-10-26 16:52:44:459][P:23456:23008][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 2 ms
+[2024-10-26 16:52:45:303][P:23456:23008][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 3 ms
+[2024-10-26 16:52:45:305][P:23456:23008][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1981] m_pPW->InitParam cost time 0 ms
+[2024-10-26 16:52:45:307][P:23456:23008][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 1 ms
+[2024-10-26 16:52:45:309][P:23456:23008][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 1 ms
+[2024-10-26 16:52:45:314][P:23456:23008][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 1 ms
+[2024-10-26 16:52:45:347][P:23456:23008][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 2 ms
+[2024-10-26 16:52:45:379][P:23456:23008][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 2 ms
+[2024-10-26 16:52:45:412][P:23456:23008][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 2 ms
+[2024-10-26 16:52:45:443][P:23456:23008][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 1 ms
+[2024-10-26 16:53:12:623][P:23456:23008][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 3 ms
+[2024-10-26 16:53:12:655][P:23456:23008][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 1 ms
+[2024-10-26 16:55:59:500][P:5408:21908][INFO][ColorImageEngineServer.cpp:70] ---- ColorImageEngineServer ---- 
+[2024-10-26 16:56:06:123][P:5408:21908][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:510] BuildOpenCL cost time 132 ms
+[2024-10-26 16:56:06:125][P:5408:21908][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1981] m_pPW->InitParam cost time 0 ms
+[2024-10-26 16:56:06:128][P:5408:21908][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 1 ms
+[2024-10-26 16:56:07:263][P:5408:21908][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 0 ms
+[2024-10-26 16:56:07:264][P:5408:21908][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1981] m_pPW->InitParam cost time 0 ms
+[2024-10-26 16:56:07:265][P:5408:21908][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 1 ms
+[2024-10-26 16:56:07:300][P:5408:21908][INFO][ColorImageEngineServer.cpp:268]  SendStartCmd 1
+[2024-10-26 16:59:50:870][P:6468:16848][INFO][ColorImageEngineServer.cpp:70] ---- ColorImageEngineServer ---- 
+[2024-10-26 17:00:03:911][P:6468:16848][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:510] BuildOpenCL cost time 4659 ms
+[2024-10-26 17:00:03:913][P:6468:16848][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1981] m_pPW->InitParam cost time 0 ms
+[2024-10-26 17:00:03:925][P:6468:16848][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 0 ms
+[2024-10-26 17:00:05:431][P:6468:16848][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 1 ms
+[2024-10-26 17:00:05:432][P:6468:16848][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1981] m_pPW->InitParam cost time 0 ms
+[2024-10-26 17:00:05:433][P:6468:16848][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 0 ms
+[2024-10-26 17:00:05:467][P:6468:16848][INFO][ColorImageEngineServer.cpp:268]  SendStartCmd 1
+[2024-10-26 17:27:11:234][P:20128:27748][INFO][ColorImageEngineServer.cpp:70] ---- ColorImageEngineServer ---- 
+[2024-10-26 17:27:20:647][P:20128:27748][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:510] BuildOpenCL cost time 282 ms
+[2024-10-26 17:27:20:702][P:20128:27748][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1981] m_pPW->InitParam cost time 1 ms
+[2024-10-26 17:27:20:748][P:20128:27748][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 1 ms
+[2024-10-26 17:27:22:274][P:20128:27748][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 0 ms
+[2024-10-26 17:27:22:275][P:20128:27748][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1981] m_pPW->InitParam cost time 0 ms
+[2024-10-26 17:27:22:277][P:20128:27748][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 1 ms
+[2024-10-26 17:27:22:349][P:20128:27748][INFO][ColorImageEngineServer.cpp:268]  SendStartCmd 1
+[2024-10-26 17:31:08:196][P:21336:10252][INFO][ColorImageEngineServer.cpp:70] ---- ColorImageEngineServer ---- 
+[2024-10-26 17:31:16:715][P:21336:10252][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:510] BuildOpenCL cost time 313 ms
+[2024-10-26 17:31:16:717][P:21336:10252][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1981] m_pPW->InitParam cost time 0 ms
+[2024-10-26 17:31:16:724][P:21336:10252][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 1 ms
+[2024-10-26 17:31:18:263][P:21336:10252][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 1 ms
+[2024-10-26 17:31:18:266][P:21336:10252][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1981] m_pPW->InitParam cost time 0 ms
+[2024-10-26 17:31:18:267][P:21336:10252][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 1 ms
+[2024-10-26 17:31:18:331][P:21336:10252][INFO][ColorImageEngineServer.cpp:268]  SendStartCmd 1
+[2024-10-26 17:32:47:073][P:22640:13352][INFO][ColorImageEngineServer.cpp:70] ---- ColorImageEngineServer ---- 
+[2024-10-26 17:32:55:522][P:22640:13352][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:510] BuildOpenCL cost time 279 ms
+[2024-10-26 17:32:55:525][P:22640:13352][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1981] m_pPW->InitParam cost time 0 ms
+[2024-10-26 17:32:55:530][P:22640:13352][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 1 ms
+[2024-10-26 17:32:57:085][P:22640:13352][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 1 ms
+[2024-10-26 17:32:57:087][P:22640:13352][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1981] m_pPW->InitParam cost time 0 ms
+[2024-10-26 17:32:57:089][P:22640:13352][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 1 ms
+[2024-10-26 17:32:57:156][P:22640:13352][INFO][ColorImageEngineServer.cpp:268]  SendStartCmd 1
+[2024-10-26 17:34:03:205][P:28840:23604][INFO][ColorImageEngineServer.cpp:70] ---- ColorImageEngineServer ---- 
+[2024-10-26 17:37:26:425][P:6608:29432][INFO][ColorImageEngineServer.cpp:70] ---- ColorImageEngineServer ---- 
+[2024-10-26 17:37:34:841][P:6608:29432][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:510] BuildOpenCL cost time 254 ms
+[2024-10-26 17:37:34:843][P:6608:29432][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1981] m_pPW->InitParam cost time 0 ms
+[2024-10-26 17:37:34:848][P:6608:29432][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 1 ms
+[2024-10-26 17:37:36:311][P:6608:29432][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 0 ms
+[2024-10-26 17:37:36:313][P:6608:29432][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1981] m_pPW->InitParam cost time 0 ms
+[2024-10-26 17:37:36:315][P:6608:29432][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 1 ms
+[2024-10-26 17:37:36:379][P:6608:29432][INFO][ColorImageEngineServer.cpp:268]  SendStartCmd 1
+[2024-10-26 17:53:02:812][P:25396:12052][INFO][ColorImageEngineServer.cpp:70] ---- ColorImageEngineServer ---- 
+[2024-10-26 17:53:11:327][P:25396:12052][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:510] BuildOpenCL cost time 285 ms
+[2024-10-26 17:53:11:330][P:25396:12052][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1981] m_pPW->InitParam cost time 0 ms
+[2024-10-26 17:53:11:335][P:25396:12052][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 0 ms
+[2024-10-26 17:53:12:857][P:25396:12052][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 0 ms
+[2024-10-26 17:53:12:859][P:25396:12052][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1981] m_pPW->InitParam cost time 0 ms
+[2024-10-26 17:53:12:859][P:25396:12052][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 0 ms
+[2024-10-26 17:53:12:916][P:25396:12052][INFO][ColorImageEngineServer.cpp:268]  SendStartCmd 1
+[2024-10-26 18:00:52:556][P:23184:27188][INFO][ColorImageEngineServer.cpp:70] ---- ColorImageEngineServer ---- 
+[2024-10-26 18:01:01:043][P:23184:27188][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:510] BuildOpenCL cost time 270 ms
+[2024-10-26 18:01:01:045][P:23184:27188][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1981] m_pPW->InitParam cost time 0 ms
+[2024-10-26 18:01:01:050][P:23184:27188][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 0 ms
+[2024-10-26 18:01:02:547][P:23184:27188][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 0 ms
+[2024-10-26 18:01:02:550][P:23184:27188][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1981] m_pPW->InitParam cost time 0 ms
+[2024-10-26 18:01:02:551][P:23184:27188][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 1 ms
+[2024-10-26 18:01:02:611][P:23184:27188][INFO][ColorImageEngineServer.cpp:268]  SendStartCmd 1
+[2024-10-26 18:05:44:503][P:19624:27244][INFO][ColorImageEngineServer.cpp:70] ---- ColorImageEngineServer ---- 
+[2024-10-26 18:05:52:988][P:19624:27244][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:510] BuildOpenCL cost time 301 ms
+[2024-10-26 18:05:52:991][P:19624:27244][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1981] m_pPW->InitParam cost time 0 ms
+[2024-10-26 18:05:52:997][P:19624:27244][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 1 ms
+[2024-10-26 18:05:54:549][P:19624:27244][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 0 ms
+[2024-10-26 18:05:54:552][P:19624:27244][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1981] m_pPW->InitParam cost time 0 ms
+[2024-10-26 18:05:54:553][P:19624:27244][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 1 ms
+[2024-10-26 18:05:54:618][P:19624:27244][INFO][ColorImageEngineServer.cpp:268]  SendStartCmd 1
+[2024-10-26 18:06:22:753][P:29352:26284][INFO][ColorImageEngineServer.cpp:70] ---- ColorImageEngineServer ---- 
+[2024-10-26 18:06:31:246][P:29352:26284][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:510] BuildOpenCL cost time 262 ms
+[2024-10-26 18:06:31:248][P:29352:26284][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1981] m_pPW->InitParam cost time 0 ms
+[2024-10-26 18:06:31:253][P:29352:26284][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 0 ms
+[2024-10-26 18:06:32:757][P:29352:26284][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 0 ms
+[2024-10-26 18:06:32:759][P:29352:26284][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1981] m_pPW->InitParam cost time 0 ms
+[2024-10-26 18:06:32:759][P:29352:26284][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 0 ms
+[2024-10-26 18:06:32:821][P:29352:26284][INFO][ColorImageEngineServer.cpp:268]  SendStartCmd 1
+[2024-10-26 18:08:08:766][P:23752:27780][INFO][ColorImageEngineServer.cpp:70] ---- ColorImageEngineServer ---- 
+[2024-10-26 18:08:17:169][P:23752:27780][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:510] BuildOpenCL cost time 260 ms
+[2024-10-26 18:08:17:172][P:23752:27780][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1981] m_pPW->InitParam cost time 0 ms
+[2024-10-26 18:08:17:177][P:23752:27780][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 1 ms
+[2024-10-26 18:08:18:674][P:23752:27780][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 1 ms
+[2024-10-26 18:08:18:675][P:23752:27780][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1981] m_pPW->InitParam cost time 0 ms
+[2024-10-26 18:08:18:676][P:23752:27780][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 0 ms
+[2024-10-26 18:08:18:734][P:23752:27780][INFO][ColorImageEngineServer.cpp:268]  SendStartCmd 1
+[2024-10-26 18:08:52:394][P:8680:25236][INFO][ColorImageEngineServer.cpp:70] ---- ColorImageEngineServer ---- 
+[2024-10-26 18:09:00:860][P:8680:25236][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:510] BuildOpenCL cost time 294 ms
+[2024-10-26 18:09:00:862][P:8680:25236][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1981] m_pPW->InitParam cost time 0 ms
+[2024-10-26 18:09:00:867][P:8680:25236][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 1 ms
+[2024-10-26 18:09:02:421][P:8680:25236][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 0 ms
+[2024-10-26 18:09:02:424][P:8680:25236][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1981] m_pPW->InitParam cost time 0 ms
+[2024-10-26 18:09:02:425][P:8680:25236][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 1 ms
+[2024-10-26 18:09:02:488][P:8680:25236][INFO][ColorImageEngineServer.cpp:268]  SendStartCmd 1
+[2024-10-26 18:11:50:544][P:29040:23192][INFO][ColorImageEngineServer.cpp:70] ---- ColorImageEngineServer ---- 
+[2024-10-26 18:11:59:049][P:29040:23192][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:510] BuildOpenCL cost time 287 ms
+[2024-10-26 18:11:59:051][P:29040:23192][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1981] m_pPW->InitParam cost time 0 ms
+[2024-10-26 18:11:59:057][P:29040:23192][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 1 ms
+[2024-10-26 18:12:00:585][P:29040:23192][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 1 ms
+[2024-10-26 18:12:00:587][P:29040:23192][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1981] m_pPW->InitParam cost time 0 ms
+[2024-10-26 18:12:00:588][P:29040:23192][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 1 ms
+[2024-10-26 18:12:00:659][P:29040:23192][INFO][ColorImageEngineServer.cpp:268]  SendStartCmd 1
+[2024-10-26 18:23:41:410][P:3636:21000][INFO][ColorImageEngineServer.cpp:70] ---- ColorImageEngineServer ---- 
+[2024-10-26 18:23:56:425][P:14876:13388][INFO][ColorImageEngineServer.cpp:70] ---- ColorImageEngineServer ---- 
+[2024-10-26 18:24:03:091][P:14876:13388][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:510] BuildOpenCL cost time 151 ms
+[2024-10-26 18:24:03:093][P:14876:13388][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1981] m_pPW->InitParam cost time 0 ms
+[2024-10-26 18:24:03:096][P:14876:13388][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 1 ms
+[2024-10-26 18:24:04:233][P:14876:13388][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 0 ms
+[2024-10-26 18:24:04:234][P:14876:13388][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1981] m_pPW->InitParam cost time 0 ms
+[2024-10-26 18:24:04:235][P:14876:13388][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 1 ms
+[2024-10-26 18:24:04:272][P:14876:13388][INFO][ColorImageEngineServer.cpp:268]  SendStartCmd 1
+[2024-10-26 18:24:42:564][P:15684:19100][INFO][ColorImageEngineServer.cpp:70] ---- ColorImageEngineServer ---- 
+[2024-10-26 18:24:49:233][P:15684:19100][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:510] BuildOpenCL cost time 137 ms
+[2024-10-26 18:24:49:235][P:15684:19100][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1981] m_pPW->InitParam cost time 1 ms
+[2024-10-26 18:24:49:238][P:15684:19100][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 0 ms
+[2024-10-26 18:24:50:359][P:15684:19100][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 0 ms
+[2024-10-26 18:24:50:361][P:15684:19100][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1981] m_pPW->InitParam cost time 0 ms
+[2024-10-26 18:24:50:361][P:15684:19100][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 0 ms
+[2024-10-26 18:24:50:399][P:15684:19100][INFO][ColorImageEngineServer.cpp:268]  SendStartCmd 1
+[2024-10-26 18:25:56:099][P:19116:21780][INFO][ColorImageEngineServer.cpp:70] ---- ColorImageEngineServer ---- 
+[2024-10-26 18:26:08:605][P:25628:24164][INFO][ColorImageEngineServer.cpp:70] ---- ColorImageEngineServer ---- 
+[2024-10-26 18:26:17:087][P:25628:24164][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:510] BuildOpenCL cost time 282 ms
+[2024-10-26 18:26:17:089][P:25628:24164][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1981] m_pPW->InitParam cost time 0 ms
+[2024-10-26 18:26:17:094][P:25628:24164][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 0 ms
+[2024-10-26 18:26:18:610][P:25628:24164][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 0 ms
+[2024-10-26 18:26:18:613][P:25628:24164][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1981] m_pPW->InitParam cost time 0 ms
+[2024-10-26 18:26:18:614][P:25628:24164][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 1 ms
+[2024-10-26 18:26:18:675][P:25628:24164][INFO][ColorImageEngineServer.cpp:268]  SendStartCmd 1
+[2024-10-26 18:26:31:879][P:25628:24164][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1981] m_pPW->InitParam cost time 1 ms
+[2024-10-26 18:26:31:882][P:25628:24164][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 2 ms
+[2024-10-26 18:26:31:910][P:25628:24164][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 3 ms
+[2024-10-26 18:26:33:948][P:25628:24164][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 3 ms
+[2024-10-26 18:26:33:949][P:25628:24164][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1981] m_pPW->InitParam cost time 0 ms
+[2024-10-26 18:26:33:951][P:25628:24164][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 1 ms
+[2024-10-26 18:26:33:995][P:25628:24164][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 3 ms
+[2024-10-26 18:26:34:042][P:25628:24164][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 3 ms
+[2024-10-26 18:26:34:076][P:25628:24164][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 2 ms
+[2024-10-26 18:26:45:208][P:25628:24164][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 1 ms
+[2024-10-26 18:26:45:252][P:25628:24164][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 2 ms
+[2024-10-26 18:29:33:416][P:10892:28120][INFO][ColorImageEngineServer.cpp:70] ---- ColorImageEngineServer ---- 
+[2024-10-26 18:29:41:945][P:10892:28120][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:510] BuildOpenCL cost time 282 ms
+[2024-10-26 18:29:41:950][P:10892:28120][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1981] m_pPW->InitParam cost time 0 ms
+[2024-10-26 18:29:41:956][P:10892:28120][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 1 ms
+[2024-10-26 18:29:43:450][P:10892:28120][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 0 ms
+[2024-10-26 18:29:43:452][P:10892:28120][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1981] m_pPW->InitParam cost time 0 ms
+[2024-10-26 18:29:43:454][P:10892:28120][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 2 ms
+[2024-10-26 18:29:43:521][P:10892:28120][INFO][ColorImageEngineServer.cpp:268]  SendStartCmd 1
+[2024-10-26 18:35:01:153][P:28652:20064][INFO][ColorImageEngineServer.cpp:70] ---- ColorImageEngineServer ---- 
+[2024-10-26 18:35:09:680][P:28652:20064][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:510] BuildOpenCL cost time 290 ms
+[2024-10-26 18:35:09:683][P:28652:20064][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1981] m_pPW->InitParam cost time 0 ms
+[2024-10-26 18:35:09:689][P:28652:20064][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 2 ms
+[2024-10-26 18:35:11:236][P:28652:20064][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 1 ms
+[2024-10-26 18:35:11:239][P:28652:20064][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1981] m_pPW->InitParam cost time 0 ms
+[2024-10-26 18:35:11:240][P:28652:20064][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 0 ms
+[2024-10-26 18:35:11:304][P:28652:20064][INFO][ColorImageEngineServer.cpp:268]  SendStartCmd 1
+[2024-10-26 18:35:33:328][P:28652:20064][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1981] m_pPW->InitParam cost time 0 ms
+[2024-10-26 18:35:33:331][P:28652:20064][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 2 ms
+[2024-10-26 18:35:33:335][P:28652:20064][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 2 ms
+[2024-10-26 18:37:52:130][P:22488:17192][INFO][ColorImageEngineServer.cpp:70] ---- ColorImageEngineServer ---- 
+[2024-10-26 18:38:00:709][P:22488:17192][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:510] BuildOpenCL cost time 290 ms
+[2024-10-26 18:38:00:711][P:22488:17192][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1981] m_pPW->InitParam cost time 0 ms
+[2024-10-26 18:38:00:716][P:22488:17192][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 1 ms
+[2024-10-26 18:38:02:269][P:22488:17192][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 1 ms
+[2024-10-26 18:38:02:272][P:22488:17192][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1981] m_pPW->InitParam cost time 0 ms
+[2024-10-26 18:38:02:273][P:22488:17192][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 0 ms
+[2024-10-26 18:38:04:658][P:22488:17192][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1981] m_pPW->InitParam cost time 0 ms
+[2024-10-26 18:38:04:659][P:22488:17192][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 0 ms
+[2024-10-26 18:38:04:728][P:22488:17192][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 38 ms
+[2024-10-26 18:40:29:396][P:17740:12176][INFO][ColorImageEngineServer.cpp:70] ---- ColorImageEngineServer ---- 
+[2024-10-26 18:40:37:961][P:17740:12176][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:510] BuildOpenCL cost time 296 ms
+[2024-10-26 18:40:37:964][P:17740:12176][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1981] m_pPW->InitParam cost time 0 ms
+[2024-10-26 18:40:37:969][P:17740:12176][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 2 ms
+[2024-10-26 18:40:39:506][P:17740:12176][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 0 ms
+[2024-10-26 18:40:39:508][P:17740:12176][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1981] m_pPW->InitParam cost time 0 ms
+[2024-10-26 18:40:39:509][P:17740:12176][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 1 ms
+[2024-10-26 18:40:41:785][P:17740:12176][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1981] m_pPW->InitParam cost time 0 ms
+[2024-10-26 18:40:41:786][P:17740:12176][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 0 ms
+[2024-10-26 18:40:41:803][P:17740:12176][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 0 ms
+[2024-10-26 18:40:45:688][P:17740:12176][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 1 ms
+[2024-10-26 18:40:45:690][P:17740:12176][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1981] m_pPW->InitParam cost time 0 ms
+[2024-10-26 18:40:45:690][P:17740:12176][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 0 ms
+[2024-10-26 18:40:45:728][P:17740:12176][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 0 ms
+[2024-10-26 18:40:45:763][P:17740:12176][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 2 ms
+[2024-10-26 18:40:45:795][P:17740:12176][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 1 ms
+[2024-10-26 18:40:46:758][P:17740:12176][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 4 ms
+[2024-10-26 18:40:46:767][P:17740:12176][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1981] m_pPW->InitParam cost time 0 ms
+[2024-10-26 18:40:46:770][P:17740:12176][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 2 ms
+[2024-10-26 18:40:49:285][P:17740:12176][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 1 ms
+[2024-10-26 18:40:49:287][P:17740:12176][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1981] m_pPW->InitParam cost time 0 ms
+[2024-10-26 18:40:49:288][P:17740:12176][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 1 ms
+[2024-10-26 18:40:49:290][P:17740:12176][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 1 ms
+[2024-10-26 18:40:49:293][P:17740:12176][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 2 ms
+[2024-10-26 18:40:49:325][P:17740:12176][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 2 ms
+[2024-10-26 18:40:49:357][P:17740:12176][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 1 ms
+[2024-10-26 18:40:49:389][P:17740:12176][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 2 ms
+[2024-10-26 18:40:49:422][P:17740:12176][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 2 ms
+[2024-10-26 18:41:07:732][P:17740:12176][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 1 ms
+[2024-10-26 18:41:07:765][P:17740:12176][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 3 ms
+[2024-10-26 18:41:31:954][P:27596:17488][INFO][ColorImageEngineServer.cpp:70] ---- ColorImageEngineServer ---- 
+[2024-10-26 18:41:40:456][P:27596:17488][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:510] BuildOpenCL cost time 289 ms
+[2024-10-26 18:41:40:458][P:27596:17488][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1981] m_pPW->InitParam cost time 0 ms
+[2024-10-26 18:41:40:464][P:27596:17488][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 2 ms
+[2024-10-26 18:41:42:033][P:27596:17488][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 1 ms
+[2024-10-26 18:41:42:035][P:27596:17488][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1981] m_pPW->InitParam cost time 0 ms
+[2024-10-26 18:41:42:037][P:27596:17488][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 1 ms
+[2024-10-26 18:41:42:651][P:27596:17488][INFO][ColorImageEngineServer.cpp:268]  SendStartCmd 1
+[2024-10-26 18:41:43:463][P:27596:17488][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1981] m_pPW->InitParam cost time 0 ms
+[2024-10-26 18:41:43:463][P:27596:17488][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 0 ms
+[2024-10-26 18:41:43:466][P:27596:17488][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 1 ms
+[2024-10-26 18:56:25:588][P:11284:28660][INFO][ColorImageEngineServer.cpp:70] ---- ColorImageEngineServer ---- 
+[2024-10-26 18:56:34:144][P:11284:28660][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:510] BuildOpenCL cost time 313 ms
+[2024-10-26 18:56:34:147][P:11284:28660][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1981] m_pPW->InitParam cost time 0 ms
+[2024-10-26 18:56:34:152][P:11284:28660][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 2 ms
+[2024-10-26 18:56:35:683][P:11284:28660][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 0 ms
+[2024-10-26 18:56:35:685][P:11284:28660][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1981] m_pPW->InitParam cost time 0 ms
+[2024-10-26 18:56:35:686][P:11284:28660][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 0 ms
+[2024-10-26 18:56:35:746][P:11284:28660][INFO][ColorImageEngineServer.cpp:268]  SendStartCmd 1
+[2024-10-26 18:56:52:083][P:11284:28660][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1981] m_pPW->InitParam cost time 0 ms
+[2024-10-26 18:56:52:085][P:11284:28660][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 2 ms
+[2024-10-26 18:56:52:089][P:11284:28660][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 1 ms
+[2024-10-26 18:56:55:831][P:11284:28660][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 2 ms
+[2024-10-26 18:56:55:833][P:11284:28660][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1981] m_pPW->InitParam cost time 0 ms
+[2024-10-26 18:56:55:835][P:11284:28660][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 1 ms
+[2024-10-26 18:56:55:880][P:11284:28660][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 2 ms
+[2024-10-26 18:56:55:917][P:11284:28660][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 2 ms
+[2024-10-26 18:56:55:950][P:11284:28660][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 2 ms
+[2024-10-26 18:57:02:095][P:11284:28660][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 2 ms
+[2024-10-26 18:57:02:129][P:11284:28660][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 3 ms
+[2024-10-26 19:00:53:175][P:15792:25756][INFO][ColorImageEngineServer.cpp:70] ---- ColorImageEngineServer ---- 
+[2024-10-26 19:01:01:659][P:15792:25756][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:510] BuildOpenCL cost time 288 ms
+[2024-10-26 19:01:01:662][P:15792:25756][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1981] m_pPW->InitParam cost time 0 ms
+[2024-10-26 19:01:01:667][P:15792:25756][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 0 ms
+[2024-10-26 19:01:03:186][P:15792:25756][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 0 ms
+[2024-10-26 19:01:03:189][P:15792:25756][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1981] m_pPW->InitParam cost time 1 ms
+[2024-10-26 19:01:03:189][P:15792:25756][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 0 ms
+[2024-10-26 19:01:03:256][P:15792:25756][INFO][ColorImageEngineServer.cpp:268]  SendStartCmd 1
+[2024-10-26 19:01:29:128][P:21636:19056][INFO][ColorImageEngineServer.cpp:70] ---- ColorImageEngineServer ---- 
+[2024-10-26 19:01:37:564][P:21636:19056][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:510] BuildOpenCL cost time 288 ms
+[2024-10-26 19:01:37:567][P:21636:19056][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1981] m_pPW->InitParam cost time 0 ms
+[2024-10-26 19:01:37:572][P:21636:19056][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 1 ms
+[2024-10-26 19:01:39:118][P:21636:19056][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 1 ms
+[2024-10-26 19:01:39:120][P:21636:19056][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1981] m_pPW->InitParam cost time 1 ms
+[2024-10-26 19:01:39:121][P:21636:19056][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 1 ms
+[2024-10-26 19:01:39:185][P:21636:19056][INFO][ColorImageEngineServer.cpp:268]  SendStartCmd 1
+[2024-10-26 19:14:05:496][P:25944:25832][INFO][ColorImageEngineServer.cpp:70] ---- ColorImageEngineServer ---- 
+[2024-10-26 19:14:13:920][P:25944:25832][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:510] BuildOpenCL cost time 264 ms
+[2024-10-26 19:14:13:922][P:25944:25832][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1981] m_pPW->InitParam cost time 0 ms
+[2024-10-26 19:14:13:927][P:25944:25832][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 2 ms
+[2024-10-26 19:14:15:400][P:25944:25832][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 0 ms
+[2024-10-26 19:14:15:402][P:25944:25832][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1981] m_pPW->InitParam cost time 0 ms
+[2024-10-26 19:14:15:403][P:25944:25832][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 1 ms
+[2024-10-26 19:14:15:461][P:25944:25832][INFO][ColorImageEngineServer.cpp:268]  SendStartCmd 1
+[2024-10-26 19:14:37:776][P:25944:25832][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1981] m_pPW->InitParam cost time 0 ms
+[2024-10-26 19:14:37:779][P:25944:25832][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 2 ms
+[2024-10-26 19:14:37:782][P:25944:25832][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 2 ms
+[2024-10-30 22:08:56:882][P:6080:2608][INFO][ColorImageEngineServer.cpp:70] ---- ColorImageEngineServer ---- 
+[2024-10-30 22:09:07:111][P:6080:2608][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:510] BuildOpenCL cost time 567 ms
+[2024-10-30 22:09:07:184][P:6080:2608][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1981] m_pPW->InitParam cost time 2 ms
+[2024-10-30 22:09:07:248][P:6080:2608][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 2 ms
+[2024-10-30 22:09:08:846][P:6080:2608][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 1 ms
+[2024-10-30 22:09:08:847][P:6080:2608][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1981] m_pPW->InitParam cost time 0 ms
+[2024-10-30 22:09:08:848][P:6080:2608][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 0 ms
+[2024-10-30 22:09:08:915][P:6080:2608][INFO][ColorImageEngineServer.cpp:268]  SendStartCmd 1
+[2024-10-30 22:15:46:977][P:18152:12676][INFO][ColorImageEngineServer.cpp:70] ---- ColorImageEngineServer ---- 
+[2024-10-30 22:15:56:416][P:18152:12676][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:510] BuildOpenCL cost time 297 ms
+[2024-10-30 22:15:56:418][P:18152:12676][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1981] m_pPW->InitParam cost time 0 ms
+[2024-10-30 22:15:56:424][P:18152:12676][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 1 ms
+[2024-10-30 22:15:57:951][P:18152:12676][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 0 ms
+[2024-10-30 22:15:57:954][P:18152:12676][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1981] m_pPW->InitParam cost time 0 ms
+[2024-10-30 22:15:57:955][P:18152:12676][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 1 ms
+[2024-10-30 22:15:58:015][P:18152:12676][INFO][ColorImageEngineServer.cpp:268]  SendStartCmd 1
+[2024-10-30 22:17:27:882][P:18152:12676][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1981] m_pPW->InitParam cost time 2 ms
+[2024-10-30 22:17:27:886][P:18152:12676][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 3 ms
+[2024-10-30 22:17:27:929][P:18152:12676][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 3 ms
+[2024-10-30 22:17:28:896][P:18152:15484][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 3 ms
+[2024-10-30 22:17:28:904][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -93
+[2024-10-30 22:17:29:263][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:29:267][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:29:268][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:29:282][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:29:336][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:29:398][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:29:450][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:29:503][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:29:557][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:29:618][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:29:671][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:29:724][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:29:787][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:29:839][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:29:892][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:29:946][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:30:008][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:30:061][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:30:113][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:30:175][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:30:228][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:30:281][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:30:336][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:30:396][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:30:449][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:30:502][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:30:565][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:30:618][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:30:670][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:30:723][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:30:785][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:30:838][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:30:891][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:30:954][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:31:006][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:31:058][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:31:113][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:31:174][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:31:227][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:31:280][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:31:342][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:31:394][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:31:448][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:31:502][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:31:563][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:31:616][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:31:670][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:31:731][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:31:784][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:31:836][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:31:890][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:31:952][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:32:004][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:32:059][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:32:120][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:32:172][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:32:225][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:32:279][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:32:341][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:32:394][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:32:448][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:32:509][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:32:562][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:32:615][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:32:669][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:32:730][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:32:782][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:32:836][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:32:898][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:32:950][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:33:003][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:33:057][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:33:118][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:33:171][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:33:225][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:33:287][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:33:339][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:33:393][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:33:447][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:33:507][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:33:560][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:33:614][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:33:676][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:33:728][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:33:782][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:33:835][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:33:897][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:33:949][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:34:003][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:34:065][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:34:117][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:34:171][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:34:224][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:34:286][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:34:338][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:34:392][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:34:454][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:34:506][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:34:560][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:34:613][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:34:675][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:34:728][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:34:780][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:34:843][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:34:895][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:34:949][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:35:002][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:35:063][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:35:117][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:35:170][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:35:231][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:35:284][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:35:338][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:35:391][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:35:452][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:35:505][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:35:560][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:35:620][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:35:672][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:35:727][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:35:782][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:35:841][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:35:894][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:35:947][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:36:009][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:36:062][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:36:115][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:36:169][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:36:229][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:36:283][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:36:336][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:36:398][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:36:452][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:36:504][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:36:557][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:36:618][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:36:673][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:36:725][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:36:787][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:36:841][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:36:893][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:36:946][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:37:008][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:37:061][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:37:114][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:37:176][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:37:229][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:37:283][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:37:335][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:37:398][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:37:450][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:37:503][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:37:564][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:37:618][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:37:671][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:37:724][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:37:786][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:37:839][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:37:892][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:37:953][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:38:007][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:38:060][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:38:113][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:38:176][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:38:228][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:38:280][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:38:342][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:38:396][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:38:455][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:38:501][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:38:564][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:38:616][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:38:670][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:38:732][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:38:785][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:38:837][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:38:890][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:38:953][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:39:005][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:39:059][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:39:121][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:39:174][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:39:226][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:39:279][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:39:342][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:39:394][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:39:447][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:39:510][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:39:563][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:39:616][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:39:668][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:39:731][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:39:783][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:39:837][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:39:899][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:39:952][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:40:004][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:40:057][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:40:120][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:40:173][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:40:225][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:40:288][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:40:340][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:40:393][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:40:446][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:40:508][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:40:562][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:40:614][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:40:677][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:40:730][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:40:782][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:40:835][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:40:898][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:40:951][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:41:003][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:41:065][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:41:118][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:41:171][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:41:223][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:41:286][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:41:339][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:41:392][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:41:454][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:41:507][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:41:560][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:41:613][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:41:675][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:41:728][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:41:781][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:41:843][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:41:896][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:41:948][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:42:002][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:42:064][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:42:116][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:42:170][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:42:232][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:42:285][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:42:338][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:42:390][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:42:453][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:42:505][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:42:558][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:42:621][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:42:674][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:42:726][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:42:779][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:42:842][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:42:895][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:42:947][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:43:000][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:43:063][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:43:116][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:43:169][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:43:231][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:43:283][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:43:337][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:43:389][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:43:452][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:43:504][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:43:557][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:43:619][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:43:672][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:43:726][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:43:779][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:43:841][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:43:893][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:43:946][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:44:008][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:44:061][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:44:114][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:44:167][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:44:229][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:44:282][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:44:335][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:44:397][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:44:450][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:44:503][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:44:557][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:44:618][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:44:671][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:44:724][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:44:786][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:44:839][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:44:892][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:44:946][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:45:007][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:45:060][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:45:113][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:45:175][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:45:228][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:45:280][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:45:335][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:45:396][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:45:449][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:45:502][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:45:564][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:45:617][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:45:670][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:45:724][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:45:785][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:45:837][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:45:891][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:45:952][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:46:006][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:46:058][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:46:112][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:46:174][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:46:226][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:46:281][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:46:342][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:46:395][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:46:447][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:46:502][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:46:562][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:46:615][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:46:669][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:46:730][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:46:783][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:46:836][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:46:891][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:46:951][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:47:004][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:47:058][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:47:120][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:47:172][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:47:224][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:47:279][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:47:340][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:47:393][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:47:446][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:47:508][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:47:561][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:47:615][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:47:667][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:47:729][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:47:782][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:47:836][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:47:897][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:47:950][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:48:003][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:48:056][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:48:118][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:48:170][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:48:224][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:48:285][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:48:339][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:48:393][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:48:445][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:48:507][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:48:560][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:48:614][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:48:675][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:48:728][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:48:782][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:48:835][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:48:896][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:48:950][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:49:003][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:49:063][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:49:117][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:49:171][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:49:224][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:49:284][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:49:339][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:49:392][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:49:452][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:49:506][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:49:560][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:49:612][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:49:673][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:49:728][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:49:781][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:49:842][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:49:895][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:49:948][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:50:001][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:50:063][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:50:117][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:50:169][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:50:230][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:50:284][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:50:338][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:50:390][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:50:451][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:50:505][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:50:558][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:50:619][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:50:674][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:50:726][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:50:779][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:50:840][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:50:894][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:50:947][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:51:008][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:51:062][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:51:115][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:51:167][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:51:228][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:51:283][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:51:336][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:51:397][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:51:451][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:51:504][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:51:556][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:51:619][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:51:672][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:51:725][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:51:786][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:51:840][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:51:893][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:51:946][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:52:008][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:52:061][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:52:113][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:52:174][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:52:228][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:52:282][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:52:334][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:52:396][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:52:450][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:52:502][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:52:563][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:52:618][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:52:670][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:52:724][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:52:785][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:52:838][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:52:891][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:52:954][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:53:006][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:53:059][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:53:112][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:53:175][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:53:227][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:53:280][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:53:342][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:53:395][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:53:449][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:53:501][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:53:563][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:53:616][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:53:669][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:53:732][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:53:784][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:53:837][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:53:890][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:53:952][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:54:006][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:54:058][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:54:121][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:54:174][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:54:226][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:54:279][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:54:341][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:54:393][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:54:446][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:54:509][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:54:562][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:54:615][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:54:668][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:54:730][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:54:782][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:54:836][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:54:898][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:54:951][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:55:003][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:55:056][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:55:119][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:55:172][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92
+[2024-10-30 22:17:55:224][P:18152:15484][INFO][DataProcess\DataProcess.cpp:3337]  ProcessData return  -92

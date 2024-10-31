@@ -10,8 +10,11 @@ namespace DemoUltrasound
 
     public static class NativeMethods
     {
+        [DllImport("ColorImageEngineServer.dll", EntryPoint = "?StartImageEngine@ColorImageEngineServer@CIES@@QEAAHXZ", CallingConvention = CallingConvention.Cdecl)]
+        public static extern int StartImageEngine();
         // Importar SetFrameDataListener desde la DLL
-        [DllImport("ColorImageEngineServer.dll", EntryPoint = "?SetFrameDataListener@ColorImageEngineServer@CIES@@QAEXPAVFrameDataListener@2@@Z", CallingConvention = CallingConvention.StdCall)]
+        //[DllImport("ColorImageEngineServer.dll", EntryPoint = "?SetFrameDataListener@ColorImageEngineServer@CIES@@QAEXPAVFrameDataListener@2@@Z", CallingConvention = CallingConvention.StdCall)]
+        [DllImport("ColorImageEngineServer.dll", EntryPoint = "?SetFrameDataListener@ColorImageEngineServer@CIES@@QEAAXPEAVFrameDataListener@2@@Z", CallingConvention = CallingConvention.Cdecl)]
         public static extern void SetFrameDataListener(IntPtr listener);
     }
 }

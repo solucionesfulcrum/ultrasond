@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-E:\Proyectos\Kevin\DemoUltrasound\obj\x64\Debug\
+C:\Users\KEVIN\Desktop\PUCP\TESIS\PROYECTO\VERSION 1.0.1\DemoUltrasound\obj\x64\Debug\
 DemoUltrasound
 none
 false
 DEBUG;TRACE
-E:\Proyectos\Kevin\DemoUltrasound\App.xaml
+C:\Users\KEVIN\Desktop\PUCP\TESIS\PROYECTO\VERSION 1.0.1\DemoUltrasound\App.xaml
 13260170059
-
-19-827689587
-14-497241624
+1-201338063
+22425722693
+181063237438
 BC_Mode_UltraSound_Control.xaml;ColorMapControl.xaml;ColorSamplingFrameControl.xaml;ColorSamplingFrameFlag.xaml;DM_Mode_Control.xaml;Doppler\DopplerSamplingGateControl.xaml;Doppler\EnvelopeControl.xaml;Doppler\FlowScaleControl.xaml;Doppler\SamplingGateFlag.xaml;MainWindow.xaml;MMode\MModeSamplingLineControl.xaml;MMode\TimerScaleControl.xaml;ScaleMarksControl.xaml;
 
-True
+False
 

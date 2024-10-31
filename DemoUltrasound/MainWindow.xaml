@@ -579,7 +579,7 @@
                     <ToggleButton x:Name="M" Grid.Row="5" IsChecked="False" Margin="0,0,0,5" Content="M"  Height="50" Click="M_Click"/>
                     <ToggleButton x:Name="StartRecording" Grid.Row="7" IsChecked="False" Margin="0,0,0,5" Content="START"  Height="50" Click="StartRecording_Click" Visibility="Hidden"/>
                     <ToggleButton x:Name="StopRecording" Grid.Row="8" IsChecked="False" Margin="0,0,0,5" Content="STOP"  Height="50" Click="StopRecording_Click" Visibility="Hidden"/>
-                    <ToggleButton x:Name="GenerarDatosSimulados" Grid.Row="9" IsChecked="False" Margin="0,0,0,5" Content="SIMULADOR"  Height="50" Click="StartEngineButton_Click"/>
+                    <ToggleButton x:Name="GenerarDatosSimulados" Grid.Row="9" IsChecked="False" Margin="0,0,0,5" Content="Go"  Height="50" Click="StartEngineButton_Click"/>
                     <Button x:Name="Update" Grid.Row="6"  Margin="0,0,0,5"  Height="50" Visibility="Collapsed" Click="Update_Click">
                         <Button.Content>
                             <Grid>

@@ -224,13 +224,35 @@ namespace DemoUltrasound
         {
             try
             {
+                int startResult = NativeMethods.StartImageEngine();
+                if (startResult != 0)
+                {
+                    MessageBox.Show("No se pudo iniciar el motor de imagen. Código de error: " + startResult);
+                    return;
+                }
+
                 // Crear una instancia del listener
-                int dataSize = 83054294;
+                int dataSize = 830542940; // Asegúrate de que este tamaño sea correcto y esté definido en la DLL
                 UltrasoundListener listener = new UltrasoundListener(dataSize);
 
+
+                if (listener == null)
+                {
+                    MessageBox.Show("No se pudo crear el listener.");
+                    return;
+                }
+
+                //MessageBox.Show(string.Format("Listener...:  {0}", listener));
+
+                // Definir el delegado para el método OnFrameDataUpdated
                 FrameDataUpdatedCallback callback = new FrameDataUpdatedCallback(listener.OnFrameDataUpdated);
+
+                //MessageBox.Show(string.Format("Callback...:  {0}", callback));
+
+                // Obtener un puntero a la función
                 IntPtr listenerPtr = Marshal.GetFunctionPointerForDelegate(callback);
 
+                // Configurar el listener utilizando el método de la DLL
                 NativeMethods.SetFrameDataListener(listenerPtr);
 
                 MessageBox.Show(string.Format("Listener configurado. Esperando datos...:  {0}", listenerPtr));
