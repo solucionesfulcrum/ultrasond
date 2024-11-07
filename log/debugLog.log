@@ -283,3 +283,19 @@
 [2024-11-06 23:00:07:798][P:10104:6008][DEBUG][DataProcess\DataProcess.cpp:2012] SendCmdCost 213.145400 ms
 [2024-11-06 23:00:17:274][P:10104:16724][DEBUG][DataProcess\DataProcess.cpp:3545] RecvInterruptMsgDataThread end
 [2024-11-06 23:00:17:290][P:10104:18952][DEBUG][DataProcess\DataProcess.cpp:3491] RecvMsgDataThread end
+[2024-11-06 23:12:16:804][P:13432:7640][DEBUG][DataProcess\DataProcess.cpp:3504] RecvInterruptMsgDataThread start
+[2024-11-06 23:12:16:804][P:13432:10596][DEBUG][DataProcess\DataProcess.cpp:3357] RecvMsgDataThread start
+[2024-11-06 23:12:17:024][P:13432:1488][DEBUG][DataProcess\DataProcess.cpp:2012] SendCmdCost 216.272600 ms
+[2024-11-06 23:12:20:709][P:13432:1488][DEBUG][DataProcess\DataProcess.cpp:2012] SendCmdCost 324.193100 ms
+[2024-11-06 23:12:24:112][P:13432:1488][DEBUG][DataProcess\DataProcess.cpp:2012] SendCmdCost 221.958800 ms
+[2024-11-06 23:12:28:205][P:13432:1488][DEBUG][DataProcess\DataProcess.cpp:2012] SendCmdCost 218.855900 ms
+[2024-11-06 23:12:32:041][P:13432:7640][DEBUG][DataProcess\DataProcess.cpp:3545] RecvInterruptMsgDataThread end
+[2024-11-06 23:12:32:182][P:13432:10596][DEBUG][DataProcess\DataProcess.cpp:3491] RecvMsgDataThread end
+[2024-11-06 23:14:10:087][P:9492:11772][DEBUG][DataProcess\DataProcess.cpp:3504] RecvInterruptMsgDataThread start
+[2024-11-06 23:14:10:087][P:9492:6888][DEBUG][DataProcess\DataProcess.cpp:3357] RecvMsgDataThread start
+[2024-11-06 23:14:10:431][P:9492:19384][DEBUG][DataProcess\DataProcess.cpp:2012] SendCmdCost 310.781800 ms
+[2024-11-06 23:14:14:102][P:9492:19384][DEBUG][DataProcess\DataProcess.cpp:2012] SendCmdCost 219.000600 ms
+[2024-11-06 23:14:15:786][P:9492:19384][DEBUG][DataProcess\DataProcess.cpp:2012] SendCmdCost 320.877000 ms
+[2024-11-06 23:14:18:621][P:9492:19384][DEBUG][DataProcess\DataProcess.cpp:2012] SendCmdCost 208.759400 ms
+[2024-11-06 23:14:25:353][P:9492:11772][DEBUG][DataProcess\DataProcess.cpp:3545] RecvInterruptMsgDataThread end
+[2024-11-06 23:14:25:494][P:9492:6888][DEBUG][DataProcess\DataProcess.cpp:3491] RecvMsgDataThread end

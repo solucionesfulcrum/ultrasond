@@ -306,7 +306,7 @@ namespace DemoUltrasound
         private void CaptureDopplerData(object state)
         {
 
-            MainWindow control = state as MainWindow;
+            /*MainWindow control = state as MainWindow;
             MessageBox.Show("PROBAMOS SI INGRESA PARTE INICIAL");
             if (control == null)
             {
@@ -352,7 +352,7 @@ namespace DemoUltrasound
                 }*/
 
 
-                int dopplerReadNum = 10;
+                /*int dopplerReadNum = 10;
                 bool resetDisplayData = false;
 
                 while (_isCapturingDopplerData)
@@ -384,7 +384,165 @@ namespace DemoUltrasound
             catch (Exception ex)
             {
                 Dispatcher.Invoke(() => MessageBox.Show("Error en la captura de datos Doppler: " + ex.Message));
+            }*/
+
+            MainWindow control = state as MainWindow;
+
+            while (control._readDataThreadFlag)
+            {
+                MessageBox.Show("INICIO");
+                control.TestUSBState();
+                if (control.mScanMode == CLScanMode.CLScanModeEnum.D_PW && control.pwState == D_PW_StateE.PW_D)
+                {
+                    int dopplerReadNum = 10;
+                    bool resetDisplayData = false;
+                    int nDataCount = control._demoServer.GetImageDisplayData_D_PW(control.imageData, dopplerReadNum, ref resetDisplayData);
+                    MessageBox.Show("nDataCount CLScanMode.CLScanModeEnum.D_PW && control.pwState == D_PW_StateE.PW_D");
+                    if (nDataCount > 0)
+                    {
+                        if (!control._readDataThreadFlag)
+                        {
+                            return;
+                        }
+                        //System.Console.WriteLine("D PW Number " + imageData_GetDataTread.m_D_PW_ImageInfos[0].m_nDateNum.ToString());
+                        //数据都拷贝到一个大数组里面
+                        control.Dispatcher.Invoke(new Action(() =>
+                        {
+                            if (resetDisplayData)
+                                control.DopplerCtrl.ClearScreen();
+                            control.DopplerCtrl.AddData_D(control.imageData.m_D_PW_Imagedata, nDataCount, control.imageData.m_D_PW_ImageInfos[nDataCount - 1].m_nDateNum, control.pwState);
+
+                        }));
+                    }
+
+                    //if (control.OpenAutoVesselAngle)
+                    {
+                        for (int i = 0; i < nDataCount; i++)
+                        {
+
+                            if (control.imageData.m_D_PW_ImageInfos[i].m_AutoMeasureAngle != -999)
+                            {
+
+                                double currentLaunchDeflectionAngle_PW = control.BAWBUtrs.DoppleSGControl.GetLaunchDeflection();
+
+                                double angle = control.imageData.m_D_PW_ImageInfos[i].m_AutoMeasureAngle + currentLaunchDeflectionAngle_PW;
+                                if (control.imageData.m_D_PW_ImageInfos[i].m_AutoMeasureAngle + currentLaunchDeflectionAngle_PW < -90)
+                                {
+                                    angle = 180 + angle;
+                                }
+                                else if (control.imageData.m_D_PW_ImageInfos[i].m_AutoMeasureAngle + currentLaunchDeflectionAngle_PW > 90)
+                                {
+                                    angle = angle - 180;
+                                }
+
+                                if (angle > 80)
+                                {
+                                    angle = 80;
+                                }
+                                else if (angle < -80)
+                                {
+                                    angle = -80;
+                                }
+
+                                control.Dispatcher.Invoke(new Action(() =>
+                                {
+                                    control.D_Angle.Value = (int)angle;
+                                }));
+
+                            }
+
+
+                            if (control.imageData.m_D_PW_ImageInfos[i].m_BloodRadius_T != -999 && control.imageData.m_D_PW_ImageInfos[i].m_BloodRadius_B != -999)
+                            {
+                                //以取样门中心点为中心，垂直于角度方向上的血管半径。
+                                //control.imageData.m_D_PW_ImageInfos[i].m_BloodRadius_T, control.imageData.m_D_PW_ImageInfos[i].m_BloodRadius_B
+                            }
+
+                        }
+                    }
+
+                }
+                else
+                {
+                    int nDataCount = control._demoServer.GetImageDisplayData(control.imageData);
+                    MessageBox.Show("nDataCount control._demoServer.GetImageDisplayData(control.imageData)");
+                    if (nDataCount == 1)
+                    {
+
+                        control.Dispatcher.BeginInvoke(new Action(() =>
+                        {
+                            if (control.mScanMode == CLScanMode.CLScanModeEnum.B)
+                            {
+                                if (control.imageData.m_bBHadData)
+                                    control.BAWBUtrs.AddData(control.imageData.m_B_Imagedata, control.imageData.m_nBImageDataLen);
+                            }
+                            else if (control.mScanMode == CLScanMode.CLScanModeEnum.BC)
+                            {
+                                if (control.imageData.m_bCHadData)
+                                    control.BAWBUtrs.AddData(control.imageData.m_C_Imagedata, control.imageData.m_nCImageDataLen);
+                            }
+                            else if (control.mScanMode == CLScanMode.CLScanModeEnum.D_PW)
+                            {
+                                if (control.pwState == D_PW_StateE.PW_B)
+                                {
+                                    if (control.imageData.m_bBHadData)
+                                        control.BAWBUtrs.AddData(control.imageData.m_B_Imagedata, control.imageData.m_nBImageDataLen);
+                                }
+                                else if (control.pwState == D_PW_StateE.PW_BC)
+                                {
+                                    if (control.imageData.m_bCHadData)
+                                        control.BAWBUtrs.AddData(control.imageData.m_C_Imagedata, control.imageData.m_nCImageDataLen);
+                                    else if (control.imageData.m_bBHadData)
+                                        control.BAWBUtrs.AddData(control.imageData.m_B_Imagedata, control.imageData.m_nBImageDataLen);
+                                }
+                            }
+                            else if (control.mScanMode == CLScanMode.CLScanModeEnum.BM)
+                            {
+                                if (control.imageData.m_bBHadData)
+                                    control.BAWBUtrs.AddData(control.imageData.m_B_Imagedata, control.imageData.m_nBImageDataLen);
+
+                                if (control.imageData.m_bMHadData)
+                                {
+                                    if (control.imageData.m_M_ImageInfo.m_bClearScreen)
+                                    {
+                                        control.DopplerCtrl.ClearScreen();
+                                    }
+                                    //数据都拷贝到一个大数组里面
+                                    control.DopplerCtrl.AddData_M(control.imageData.m_M_Imagedata,
+                                    control.imageData.m_nMImageDataLen,
+                                    control.imageData.m_M_ImageInfo.m_nImageHeightPixels,
+                                    control.imageData.m_M_ImageInfo.m_nMLineNum);
+                                }
+
+                            }
+
+                        }));
+
+                        control._showTimeCount++;
+                    }
+
+                    if (control._showTimeCount >= 15)
+                    {
+                        control._TS_E = new TimeSpan(DateTime.Now.Ticks);
+
+                        TimeSpan _TS_Mid = control._TS_E.Subtract(control._TS_S).Duration();
+
+                        double fps = control._showTimeCount * 1000 / _TS_Mid.TotalMilliseconds;
+
+
+                        control.Dispatcher.BeginInvoke(new Action(() =>
+                        {
+                            control.BAWBUtrs.FPS.Text = fps.ToString("F02") + "fps";
+                        }));
+
+
+                        control._TS_S = new TimeSpan(DateTime.Now.Ticks);
+                        control._showTimeCount = 0;
+                    }
+                }
+
             }
+
         }
 
         // Método opcional para detener la captura de datos cuando se detiene el motor
@@ -1178,13 +1336,11 @@ namespace DemoUltrasound
             while (control._readDataThreadFlag)
             {
                 control.TestUSBState();
-                MessageBox.Show(string.Format("INCIO:"));
                 if (control.mScanMode == CLScanMode.CLScanModeEnum.D_PW && control.pwState == D_PW_StateE.PW_D)
                 {
                     int dopplerReadNum = 10;
                     bool resetDisplayData = false;
                     int nDataCount = control._demoServer.GetImageDisplayData_D_PW(control.imageData, dopplerReadNum, ref resetDisplayData);
-                    MessageBox.Show(string.Format("nDataCount: {0}", nDataCount));
                     if (nDataCount > 0)
                     {
                         if (!control._readDataThreadFlag)
