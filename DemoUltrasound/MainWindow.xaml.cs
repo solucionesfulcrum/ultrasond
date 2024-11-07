@@ -264,7 +264,7 @@ namespace DemoUltrasound
 
                 MessageBox.Show("Motor de imagen iniciado correctamente.");
                 _isCapturingDopplerData = true;
-                _dopplerDataThread = new Thread(new ParameterizedThreadStart(CaptureDopplerData));
+                _dopplerDataThread = new Thread(new ParameterizedThreadStart(GetDataTread));
                 _dopplerDataThread.Start(this);
 
                 MessageBox.Show("Motor de imagen y captura de datos Doppler iniciados correctamente.");
@@ -329,12 +329,35 @@ namespace DemoUltrasound
             try
             {
                 MessageBox.Show("PROBAMOS SI INGRESA PARTE MEDIA");
+
+                /*int dopplerReadNum = 10;
+                bool resetDisplayData = false;
+                int nDataCount = control._demoServer.GetImageDisplayData_D_PW(control.imageData, dopplerReadNum, ref resetDisplayData);
+
+                if (nDataCount > 0)
+                {
+                    if (!control._readDataThreadFlag)
+                    {
+                        return;
+                    }
+                    //System.Console.WriteLine("D PW Number " + imageData_GetDataTread.m_D_PW_ImageInfos[0].m_nDateNum.ToString());
+                    //数据都拷贝到一个大数组里面
+                    control.Dispatcher.Invoke(new Action(() =>
+                    {
+                        if (resetDisplayData)
+                            control.DopplerCtrl.ClearScreen();
+                        control.DopplerCtrl.AddData_D(control.imageData.m_D_PW_Imagedata, nDataCount, control.imageData.m_D_PW_ImageInfos[nDataCount - 1].m_nDateNum, control.pwState);
+
+                    }));
+                }*/
+
+
                 int dopplerReadNum = 10;
                 bool resetDisplayData = false;
 
                 while (_isCapturingDopplerData)
                 {
-                    int nDataCount = _demoServer.GetImageDisplayData_D_PW(control.imageData, dopplerReadNum, ref resetDisplayData);
+                    int nDataCount = control._demoServer.GetImageDisplayData_D_PW(control.imageData, dopplerReadNum, ref resetDisplayData);
                     MessageBox.Show(string.Format("nDataCount: {0}", nDataCount));
                     if (nDataCount > 0 && control.imageData.m_bD_PWHadData)
                     {
@@ -1155,13 +1178,13 @@ namespace DemoUltrasound
             while (control._readDataThreadFlag)
             {
                 control.TestUSBState();
-
+                MessageBox.Show(string.Format("INCIO:"));
                 if (control.mScanMode == CLScanMode.CLScanModeEnum.D_PW && control.pwState == D_PW_StateE.PW_D)
                 {
                     int dopplerReadNum = 10;
                     bool resetDisplayData = false;
                     int nDataCount = control._demoServer.GetImageDisplayData_D_PW(control.imageData, dopplerReadNum, ref resetDisplayData);
-
+                    MessageBox.Show(string.Format("nDataCount: {0}", nDataCount));
                     if (nDataCount > 0)
                     {
                         if (!control._readDataThreadFlag)
