@@ -299,3 +299,10 @@
 [2024-11-06 23:14:18:621][P:9492:19384][DEBUG][DataProcess\DataProcess.cpp:2012] SendCmdCost 208.759400 ms
 [2024-11-06 23:14:25:353][P:9492:11772][DEBUG][DataProcess\DataProcess.cpp:3545] RecvInterruptMsgDataThread end
 [2024-11-06 23:14:25:494][P:9492:6888][DEBUG][DataProcess\DataProcess.cpp:3491] RecvMsgDataThread end
+[2024-11-06 23:40:02:866][P:19304:13328][DEBUG][DataProcess\DataProcess.cpp:3504] RecvInterruptMsgDataThread start
+[2024-11-06 23:40:02:866][P:19304:8844][DEBUG][DataProcess\DataProcess.cpp:3357] RecvMsgDataThread start
+[2024-11-06 23:40:03:084][P:19304:17044][DEBUG][DataProcess\DataProcess.cpp:2012] SendCmdCost 214.040100 ms
+[2024-11-06 23:40:07:829][P:19304:17044][DEBUG][DataProcess\DataProcess.cpp:2012] SendCmdCost 317.924300 ms
+[2024-11-06 23:40:10:363][P:19304:17044][DEBUG][DataProcess\DataProcess.cpp:2012] SendCmdCost 215.730300 ms
+[2024-11-06 23:40:26:530][P:19304:13328][DEBUG][DataProcess\DataProcess.cpp:3545] RecvInterruptMsgDataThread end
+[2024-11-06 23:40:26:670][P:19304:8844][DEBUG][DataProcess\DataProcess.cpp:3491] RecvMsgDataThread end

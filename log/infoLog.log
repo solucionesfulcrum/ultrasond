@@ -3721,3 +3721,33 @@
 [2024-11-06 23:14:18:410][P:9492:14388][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 0 ms
 [2024-11-06 23:14:25:498][P:9492:14388][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 0 ms
 [2024-11-06 23:14:25:530][P:9492:14388][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 0 ms
+[2024-11-06 23:33:14:720][P:19232:13648][INFO][ColorImageEngineServer.cpp:70] ---- ColorImageEngineServer ---- 
+[2024-11-06 23:33:23:069][P:19232:13648][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:510] BuildOpenCL cost time 264 ms
+[2024-11-06 23:33:23:071][P:19232:13648][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1981] m_pPW->InitParam cost time 0 ms
+[2024-11-06 23:33:23:077][P:19232:13648][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 1 ms
+[2024-11-06 23:33:24:565][P:19232:13648][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 1 ms
+[2024-11-06 23:33:24:567][P:19232:13648][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1981] m_pPW->InitParam cost time 0 ms
+[2024-11-06 23:33:24:568][P:19232:13648][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 0 ms
+[2024-11-06 23:33:24:626][P:19232:13648][INFO][ColorImageEngineServer.cpp:268]  SendStartCmd 1
+[2024-11-06 23:39:06:266][P:19304:9448][INFO][ColorImageEngineServer.cpp:70] ---- ColorImageEngineServer ---- 
+[2024-11-06 23:39:14:788][P:19304:9448][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:510] BuildOpenCL cost time 304 ms
+[2024-11-06 23:39:14:790][P:19304:9448][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1981] m_pPW->InitParam cost time 0 ms
+[2024-11-06 23:39:14:795][P:19304:9448][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 0 ms
+[2024-11-06 23:39:16:320][P:19304:9448][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 1 ms
+[2024-11-06 23:39:16:322][P:19304:9448][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1981] m_pPW->InitParam cost time 0 ms
+[2024-11-06 23:39:16:324][P:19304:9448][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 2 ms
+[2024-11-06 23:39:16:941][P:19304:9448][INFO][ColorImageEngineServer.cpp:268]  SendStartCmd 1
+[2024-11-06 23:40:02:205][P:19304:9448][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1981] m_pPW->InitParam cost time 0 ms
+[2024-11-06 23:40:02:208][P:19304:9448][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 1 ms
+[2024-11-06 23:40:02:211][P:19304:9448][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 2 ms
+[2024-11-06 23:40:07:502][P:19304:9448][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 3 ms
+[2024-11-06 23:40:07:504][P:19304:9448][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1981] m_pPW->InitParam cost time 0 ms
+[2024-11-06 23:40:07:507][P:19304:9448][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 2 ms
+[2024-11-06 23:40:07:549][P:19304:9448][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 2 ms
+[2024-11-06 23:40:07:584][P:19304:9448][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 3 ms
+[2024-11-06 23:40:07:615][P:19304:9448][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 2 ms
+[2024-11-06 23:40:10:140][P:19304:9448][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1981] m_pPW->InitParam cost time 0 ms
+[2024-11-06 23:40:10:144][P:19304:9448][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 2 ms
+[2024-11-06 23:40:10:146][P:19304:9448][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 1 ms
+[2024-11-06 23:40:26:677][P:19304:9448][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 1 ms
+[2024-11-06 23:40:26:710][P:19304:9448][INFO][DataProcessAlgorithm\UltrasoundImagingProcessAlgorithm.cpp:1809] Set cost time 2 ms

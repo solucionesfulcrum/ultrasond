@@ -264,7 +264,7 @@ namespace DemoUltrasound
 
                 MessageBox.Show("Motor de imagen iniciado correctamente.");
                 _isCapturingDopplerData = true;
-                _dopplerDataThread = new Thread(new ParameterizedThreadStart(GetDataTread));
+                _dopplerDataThread = new Thread(new ParameterizedThreadStart(CaptureDopplerData));
                 _dopplerDataThread.Start(this);
 
                 MessageBox.Show("Motor de imagen y captura de datos Doppler iniciados correctamente.");
@@ -387,7 +387,7 @@ namespace DemoUltrasound
             }*/
 
             MainWindow control = state as MainWindow;
-
+             
             while (control._readDataThreadFlag)
             {
                 MessageBox.Show("INICIO");
@@ -478,8 +478,20 @@ namespace DemoUltrasound
                             }
                             else if (control.mScanMode == CLScanMode.CLScanModeEnum.BC)
                             {
+                                MessageBox.Show("MODO C");
                                 if (control.imageData.m_bCHadData)
                                     control.BAWBUtrs.AddData(control.imageData.m_C_Imagedata, control.imageData.m_nCImageDataLen);
+                                    using (FileStream fileStream = new FileStream("m_C_Imagedata.bin", FileMode.Append, FileAccess.Write))
+                                    using (BinaryWriter writer = new BinaryWriter(fileStream))
+                                    {
+                                        // Escribir los datos de m_C_Imagedata en el archivo binario
+                                        foreach (var value in control.imageData.m_C_Imagedata)
+                                        {
+                                            writer.Write(value);
+                                        }
+                                    }
+
+                                    MessageBox.Show("Datos m_C_Imagedata guardados en el archivo .bin.");
                             }
                             else if (control.mScanMode == CLScanMode.CLScanModeEnum.D_PW)
                             {
