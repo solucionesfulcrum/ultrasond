@@ -27,6 +27,7 @@
     <ClInclude Include="CLR_DemoServer.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="ColorImageEngineWrapper.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="AssemblyInfo.cpp">

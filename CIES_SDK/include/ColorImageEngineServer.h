@@ -9,7 +9,6 @@
 #define COLORIMAGEENGINESERVER_API __declspec(dllimport)
 #endif
 
-
 #include "CIESParamter.h"
 #include "DataSourceInterface.h"
 #include "FrameDataListener.h"

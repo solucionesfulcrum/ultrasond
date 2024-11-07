@@ -91,6 +91,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="RawDataCapture.cs" />
     <Compile Include="DopplerDataInfo.cs" />
     <Compile Include="NativeMethods.cs" />
     <Compile Include="ColorMapControl.xaml.cs">

@@ -220,19 +220,58 @@ namespace DemoUltrasound
            // MessageBox.Show(string.Format("Datos en crudo simulados guardados en"));
         //}
 
+        public enum ScanModeEnum
+        {
+            B = 0x01,			//B Ä£Ê½
+			C = 0x02,			//C Ä£Ê½
+			D_PW = 0x04,		//D_PW Ä£Ê½
+			D = 0x10,			//D Ä£Ê½
+			BC = B | C,			//B&C Ä£Ê½
+			M = 0x20,			//M Ä£Ê½
+			BM = B | M			//B&M Ä£Ê½
+        }
+        private Thread _dopplerDataThread;
+        private bool _isCapturingDopplerData = false;
+
         private void StartEngineButton_Click(object sender, RoutedEventArgs e)
         {
             try
             {
-                int startResult = NativeMethods.StartImageEngine();
-                if (startResult != 0)
+                if (string.IsNullOrEmpty(currentCheckModeParamPath))
                 {
-                    MessageBox.Show("No se pudo iniciar el motor de imagen. Código de error: " + startResult);
+                    MessageBox.Show("El parámetro de ruta no está configurado.");
+                    return;
+                } 
+
+                //MessageBox.Show("scanMode: " + scanMode);
+
+                int configResult = _demoServer.SetParamPath(currentCheckModeParamPath, mScanMode);
+                if (configResult != 0)
+                {
+                    MessageBox.Show("No se pudo configurar los parámetros del motor. Código de error: " + configResult);
                     return;
                 }
 
+                if (!_demoServer.IsRuning())
+                {
+                    int startResult = _demoServer.StartImageEngine();
+                    if (startResult != 0)
+                    {
+                        MessageBox.Show("No se pudo iniciar el motor de imagen. Código de error: " + startResult);
+                        return;
+                    }
+                }
+
+                MessageBox.Show("Motor de imagen iniciado correctamente.");
+                _isCapturingDopplerData = true;
+                _dopplerDataThread = new Thread(new ParameterizedThreadStart(CaptureDopplerData));
+                _dopplerDataThread.Start(this);
+
+                MessageBox.Show("Motor de imagen y captura de datos Doppler iniciados correctamente.");
+    
+
                 // Crear una instancia del listener
-                int dataSize = 830542940; // Asegúrate de que este tamaño sea correcto y esté definido en la DLL
+                /*int dataSize = 830542940; // Asegúrate de que este tamaño sea correcto y esté definido en la DLL
                 UltrasoundListener listener = new UltrasoundListener(dataSize);
 
 
@@ -255,7 +294,7 @@ namespace DemoUltrasound
                 // Configurar el listener utilizando el método de la DLL
                 NativeMethods.SetFrameDataListener(listenerPtr);
 
-                MessageBox.Show(string.Format("Listener configurado. Esperando datos...:  {0}", listenerPtr));
+                MessageBox.Show(string.Format("Listener configurado. Esperando datos...:  {0}", listenerPtr));*/
             }
             catch (Exception ex)
             {
@@ -263,6 +302,74 @@ namespace DemoUltrasound
             }
         }
 
+        // Método para capturar datos Doppler
+        private void CaptureDopplerData(object state)
+        {
+
+            MainWindow control = state as MainWindow;
+            MessageBox.Show("PROBAMOS SI INGRESA PARTE INICIAL");
+            if (control == null)
+            {
+                MessageBox.Show("Error: El parámetro 'state' no es una instancia válida de MainWindow.");
+                return;
+            }
+
+            if (control.imageData == null)
+            {
+                MessageBox.Show("Error: 'imageData' no está inicializado.");
+                return;
+            }
+
+            if (_demoServer == null)
+            {
+                MessageBox.Show("Error: '_demoServer' no está inicializado.");
+                return;
+            }
+
+            try
+            {
+                MessageBox.Show("PROBAMOS SI INGRESA PARTE MEDIA");
+                int dopplerReadNum = 10;
+                bool resetDisplayData = false;
+
+                while (_isCapturingDopplerData)
+                {
+                    int nDataCount = _demoServer.GetImageDisplayData_D_PW(control.imageData, dopplerReadNum, ref resetDisplayData);
+                    MessageBox.Show(string.Format("nDataCount: {0}", nDataCount));
+                    if (nDataCount > 0 && control.imageData.m_bD_PWHadData)
+                    {
+                        int[] dopplerValues = control.imageData.m_C_Imagedata;
+
+                        // Verificar si hay datos en dopplerValues
+                        if (dopplerValues != null && dopplerValues.Length > 0)
+                        {
+                            MessageBox.Show("Datos Doppler capturados exitosamente.");
+                            foreach (var value in dopplerValues)
+                            {
+                                MessageBox.Show(string.Format("Datos Doppler capturados exitosamente: {0}", value));
+                            }
+                        }
+                        else
+                        {
+                            MessageBox.Show("No se recibieron datos Doppler.");
+                        }
+                    }
+                    MessageBox.Show("PROBAMOS SI INGRESA PARTE FINAL");
+                    Thread.Sleep(1000);
+                }
+            }
+            catch (Exception ex)
+            {
+                Dispatcher.Invoke(() => MessageBox.Show("Error en la captura de datos Doppler: " + ex.Message));
+            }
+        }
+
+        // Método opcional para detener la captura de datos cuando se detiene el motor
+        private void StopDopplerDataCapture()
+        {
+            _isCapturingDopplerData = false;
+            _dopplerDataThread.Join();
+        }
 
         /*private void StartEngineButton_Click(object sender, RoutedEventArgs e)
         {

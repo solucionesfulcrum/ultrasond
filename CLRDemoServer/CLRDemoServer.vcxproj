@@ -120,6 +120,7 @@ Copy "$(SolutionDir)CIES_SDK\conf\Log.cfg" "$(OutDir)"..\conf</Command>
       <PreprocessorDefinitions>WIN32;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <PrecompiledHeader>Use</PrecompiledHeader>
       <AdditionalIncludeDirectories>..\CIES_SDK\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>/FS</AdditionalOptions>
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -190,6 +191,7 @@ Copy "$(SolutionDir)CIES_SDK\conf\Log.cfg" "$(OutDir)"..\conf
   <ItemGroup>
     <ClInclude Include="CLRData.h" />
     <ClInclude Include="CLR_DemoServer.h" />
+    <ClInclude Include="ColorImageEngineWrapper.h" />
     <ClInclude Include="resource.h" />
     <ClInclude Include="Stdafx.h" />
   </ItemGroup>
