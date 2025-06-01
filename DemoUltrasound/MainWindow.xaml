@@ -9,7 +9,7 @@
         Title="MainWindow" d:DesignHeight ="1080"  d:DesignWidth="1920" Background="Black"
         Loaded="Window_Loaded" Unloaded="Window_Unloaded" Closing="Window_Closing">
     <Window.Resources>
-
+        <BooleanToVisibilityConverter x:Key="BoolToVis" />
         <SolidColorBrush x:Key="NomeButtonDefaulted" Color="#FF1987EA"/>
         <SolidColorBrush x:Key="TitleAHelpForeground" Color="#FFC8C8C8"/>
         <SolidColorBrush x:Key="UpdateForeground" Color="Red"/>
@@ -183,6 +183,7 @@
                 <Grid.RowDefinitions>
                     <RowDefinition Height="Auto"/>
                     <RowDefinition/>
+                    <RowDefinition Height="Auto"/> 
                 </Grid.RowDefinitions>
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition />
@@ -193,21 +194,22 @@
                     <Grid.RowDefinitions>
                         <RowDefinition  Height="Auto"/>
                         <RowDefinition  Height="Auto"/>
+                        <RowDefinition  Height="Auto"/>
                     </Grid.RowDefinitions>
                     <StackPanel Grid.Row="0" Orientation="Horizontal"  Margin="0,5,0,5" >
-                        <TextBlock Text="Seleccionar sonda:" Margin="5"/>
+                        <TextBlock Text="sonda:" Margin="5"/>
                         <ComboBox x:Name="UseProbeName"  Margin="5" SelectionChanged="UseProbeName_SelectionChanged">
                         </ComboBox>
                     </StackPanel>
                     <StackPanel Grid.Row="1" Orientation="Horizontal"  Margin="0,5,0,5" Visibility="Visible" >
-                        <TextBlock Text="Seleccionar modo de examen:" Margin="5"/>
+                        <TextBlock Text="Modo de examen:" Margin="5"/>
                         <ComboBox x:Name="UseExameName"  Margin="5" SelectionChanged="UseExameName_SelectionChanged">
                         </ComboBox>
                     </StackPanel>
-                </Grid>
+                </Grid> 
 
                 <GroupBox Grid.Row="1" Header="Parámetros" HorizontalAlignment="Stretch" VerticalAlignment="Top" Margin="10,0,10,0">
-                    <TabControl Background="Transparent" TabStripPlacement="Top" >
+                    <TabControl x:Name="MainTabControl" Background="Transparent" TabStripPlacement="Top" >
                         <TabItem Header="Parámetros B" >
                             <ScrollViewer>
                                 <Grid HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,20">
@@ -344,7 +346,7 @@
                                 </Grid>
                             </ScrollViewer>
                         </TabItem>
-                        <TabItem Header="Parámetros C" >
+                        <TabItem x:Name="TabItemC" Header="Parámetros C" >
                             <ScrollViewer>
                                 <Grid HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,20">
                                     <Grid.RowDefinitions>
@@ -422,6 +424,7 @@
                                 </Grid>
                             </ScrollViewer>
                         </TabItem>
+                        
                         <TabItem Header="Parámetros D" >
                             <ScrollViewer>
                                 <Grid HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,20">
@@ -557,6 +560,39 @@
                     </TabControl>
 
                 </GroupBox>
+                <GroupBox Grid.Row="2"
+                      Grid.Column="0"
+                      Header="Parámetros CWT"
+                      Margin="10,5,10,0"
+                      Visibility="{Binding IsChecked, ElementName=C, Converter={StaticResource BoolToVis}}">
+                    <ScrollViewer>
+                    <Grid Margin="0,10,0,10">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"/>
+                            <RowDefinition Height="Auto"/>
+                            <!-- agrega más filas según cuántos controles CWT necesites -->
+                        </Grid.RowDefinitions>
+
+                        <!-- Ejemplo de controles CWT: -->
+                        <StackPanel Grid.Row="0" Orientation="Horizontal" Margin="0,0,0,5">
+                            <TextBlock Text="Parametro 1:" Margin="5"/>
+                            <Slider x:Name="CWT_Depth" Margin="5" Minimum="0" Maximum="100" Value="50" TickFrequency="1" IsSnapToTickEnabled="True"
+                                    TickPlacement="TopLeft" ValueChanged="CWT_Depth_ValueChanged"/>
+                            <TextBlock Text="{Binding ElementName=CWT_Depth, Path=Value, StringFormat=N0}" Margin="5"/>
+                        </StackPanel>
+
+                        <StackPanel Grid.Row="1" Orientation="Horizontal" Margin="0,0,0,5">
+                            <TextBlock Text="Parametro 2:" Margin="5"/>
+                            <Slider x:Name="CWT_Gain" Margin="5" Minimum="0" Maximum="100" Value="50" TickFrequency="1" IsSnapToTickEnabled="True"
+                                    TickPlacement="TopLeft" ValueChanged="CWT_Gain_ValueChanged"/>
+                            <TextBlock Text="{Binding ElementName=CWT_Gain, Path=Value, StringFormat=N0}" Margin="5"/>
+                        </StackPanel>
+
+                        <!-- Añade aquí tantos controles (Sliders, ComboBoxes, etc.) como necesites para configurar CWT -->
+                    </Grid>
+                    </ScrollViewer>
+                </GroupBox>
+                
 
                 <Grid Grid.Row="0" Grid.RowSpan="2" Grid.Column="1" Width="70" Margin="5,5" x:Name="PWCtrl">
                     <Grid.RowDefinitions>
@@ -576,10 +612,11 @@
                     <ToggleButton x:Name="B" Grid.Row="2" IsChecked="False" Margin="0,0,0,5" Content="B"  Height="50" Click="B_Click"/>
                     <ToggleButton x:Name="C" Grid.Row="3" IsChecked="False" Margin="0,0,0,5" Content="C"  Height="50" Click="C_Click"/>
                     <ToggleButton x:Name="D" Grid.Row="4" IsChecked="False" Margin="0,0,0,5" Content="D"  Height="50" Click="D_Click"/>
-                    <ToggleButton x:Name="M" Grid.Row="5" IsChecked="False" Margin="0,0,0,5" Content="M"  Height="50" Click="M_Click"/>
+                    <ToggleButton x:Name="M" Grid.Row="5" IsChecked="False" Margin="0,0,0,5" Content="M"  Height="50" Click="M_Click" />
+                    <ToggleButton x:Name="CWT" Grid.Row="6" IsChecked="False" Margin="0,0,0,5" Content="CWT"  Height="50" Click="CWT_Click" Visibility="Collapsed"/>
                     <ToggleButton x:Name="StartRecording" Grid.Row="7" IsChecked="False" Margin="0,0,0,5" Content="START"  Height="50" Click="StartRecording_Click" Visibility="Hidden"/>
                     <ToggleButton x:Name="StopRecording" Grid.Row="8" IsChecked="False" Margin="0,0,0,5" Content="STOP"  Height="50" Click="StopRecording_Click" Visibility="Hidden"/>
-                    <ToggleButton x:Name="GenerarDatosSimulados" Grid.Row="9" IsChecked="False" Margin="0,0,0,5" Content="Go"  Height="50" Click="StartEngineButton_Click"/>
+                    <ToggleButton x:Name="GenerarDatosSimulados" Grid.Row="9" IsChecked="False" Visibility="Collapsed" Margin="0,0,0,5" Content="Go"  Height="50" Click="StartEngineButton_Click"/>
                     <Button x:Name="Update" Grid.Row="6"  Margin="0,0,0,5"  Height="50" Visibility="Collapsed" Click="Update_Click">
                         <Button.Content>
                             <Grid>
@@ -607,20 +644,42 @@
                 <RowDefinition/>
                 <RowDefinition Height="Auto"/>
             </Grid.RowDefinitions>
-            <local:BC_Mode_UltraSound_Control x:Name="BAWBUtrs" Grid.Row="0" BorderThickness="0" BorderBrush="Transparent" Background="Black"/>
+            <Grid Grid.Row="0" ClipToBounds="True" Background="Transparent">
+                
+                <local:BC_Mode_UltraSound_Control x:Name="BAWBUtrs"
+                                                  BorderThickness="0"
+                                                  BorderBrush="Transparent"
+                                                  Background="Black"
+                                                  HorizontalAlignment="Stretch"
+                                                  VerticalAlignment="Stretch"/>
 
-            <Canvas x:Name="SelectionCanvas" Grid.Row="0" Background="Transparent">
-                <!-- Rectángulo manipulable -->
-                <Rectangle Name="SelectionRectangle" Stroke="Red" StrokeThickness="2" Width="200" Height="150"
-                   Canvas.Left="100" Canvas.Top="100" Fill="Transparent"/>
+                <Canvas x:Name="SelectionCanvas"
+                        HorizontalAlignment="Center"
+                        VerticalAlignment="Center"
+                        Width="{Binding ActualWidth, ElementName=BAWBUtrs}"
+                        Height="{Binding ActualHeight, ElementName=BAWBUtrs}"
+                        Background="Transparent">
+                    <!-- Rectángulo manipulable -->
+                    <Rectangle Name="SelectionRectangle" Stroke="Red" StrokeThickness="2" Width="200" Height="150"
+                       Canvas.Left="100" Canvas.Top="100"  Visibility="Collapsed" Fill="Transparent"/>
 
-                <!-- Thumbs para manipular el rectángulo (movimiento y redimensión) -->
-                <Thumb Name="MoveThumb" Width="20" Height="20" Background="Blue" Canvas.Left="280" Canvas.Top="230"
-               DragDelta="MoveThumb_DragDelta"/>
-                <Thumb Name="ResizeThumb" Width="20" Height="20" Background="Green" Canvas.Left="280" Canvas.Top="230"
-               DragDelta="ResizeThumb_DragDelta"/>
-            </Canvas>
-
+                    <!-- Thumbs para manipular el rectángulo (movimiento y redimensión) -->
+                    <Thumb Name="MoveThumb" Width="20" Height="20" Background="Blue" Visibility="Collapsed" Canvas.Left="280" Canvas.Top="230"
+                   DragDelta="MoveThumb_DragDelta"/>
+                    <Thumb Name="ResizeThumb" Width="20" Height="20" Background="Green" Visibility="Collapsed" Canvas.Left="280" Canvas.Top="230"
+                   DragDelta="ResizeThumb_DragDelta"/>
+                    <Image x:Name="overlayImage"
+                           Source="Images/overlay.jpg"
+                           Opacity="0.5"
+                           Visibility="Collapsed"
+                           Stretch="Fill"
+                           Canvas.Left="0"
+                           Canvas.Top="0"
+                           Width="{Binding ActualWidth, ElementName=BAWBUtrs}"
+                           Height="{Binding ActualHeight, ElementName=BAWBUtrs}">
+                    </Image>
+                </Canvas>
+            </Grid>
             <local:DM_Mode_Control x:Name="DopplerCtrl" Grid.Row="1" Visibility="Collapsed" BorderThickness="0" BorderBrush="Transparent" Background="Black"/>
             <TextBlock x:Name="ErrorMsg" Grid.Row="0" Grid.RowSpan="2" HorizontalAlignment="Center" VerticalAlignment="Center" Visibility="Collapsed" FontSize="25" Foreground="Yellow"/>
             

@@ -26,6 +26,8 @@ using System.IO;
 using System.Runtime.InteropServices;
 using DemoUltrasound;
 
+
+
 namespace DemoUltrasound
 {
     /// <summary>
@@ -93,7 +95,7 @@ namespace DemoUltrasound
 
         private bool isDragging = false;
         private System.Windows.Point clickPosition;
-
+        
         public MainWindow()
         {
             _demoServer = CLR_DemoServer.GetInstance(); //后台demoServer获取demo单例
@@ -387,10 +389,11 @@ namespace DemoUltrasound
             }*/
 
             MainWindow control = state as MainWindow;
-             
+            int count = 0;
             while (control._readDataThreadFlag)
             {
                 MessageBox.Show("INICIO");
+                count++;
                 control.TestUSBState();
                 if (control.mScanMode == CLScanMode.CLScanModeEnum.D_PW && control.pwState == D_PW_StateE.PW_D)
                 {
@@ -475,13 +478,24 @@ namespace DemoUltrasound
                             {
                                 if (control.imageData.m_bBHadData)
                                     control.BAWBUtrs.AddData(control.imageData.m_B_Imagedata, control.imageData.m_nBImageDataLen);
+                                    using (FileStream fileStream = new FileStream("m_B_Imagedata.bin" + count, FileMode.Append, FileAccess.Write))
+                                    using (BinaryWriter writer = new BinaryWriter(fileStream))
+                                    {
+                                        // Escribir los datos de m_B_Imagedata en el archivo binario
+                                        foreach (var value in control.imageData.m_B_Imagedata)
+                                        {
+                                            writer.Write(value);
+                                        }
+                                    }
+
+                                    MessageBox.Show("Datos m_B_Imagedata guardados en el archivo .bin.");
                             }
                             else if (control.mScanMode == CLScanMode.CLScanModeEnum.BC)
                             {
                                 MessageBox.Show("MODO C");
                                 if (control.imageData.m_bCHadData)
                                     control.BAWBUtrs.AddData(control.imageData.m_C_Imagedata, control.imageData.m_nCImageDataLen);
-                                    using (FileStream fileStream = new FileStream("m_C_Imagedata.bin", FileMode.Append, FileAccess.Write))
+                                    using (FileStream fileStream = new FileStream("m_C_Imagedata.bin" + count, FileMode.Append, FileAccess.Write))
                                     using (BinaryWriter writer = new BinaryWriter(fileStream))
                                     {
                                         // Escribir los datos de m_C_Imagedata en el archivo binario
@@ -2565,6 +2579,12 @@ namespace DemoUltrasound
 
         private void C_Click(object sender, RoutedEventArgs e)
         {
+            CWT.Visibility = Visibility.Visible;
+            if (C.IsChecked == true)
+            {
+                MainTabControl.SelectedItem = TabItemC;
+            }
+            
             if (this.C.IsChecked.HasValue && this.C.IsChecked.Value)
             {
                 if (this.B.IsChecked.HasValue && this.B.IsChecked.Value)
@@ -3875,6 +3895,34 @@ namespace DemoUltrasound
                 this.B.RaiseEvent(ee);
             }
         }
+        
+        private void CWT_Click(object sender, RoutedEventArgs e)
+        {
+            // Si está marcado (IsChecked == true), lo mostramos; si no, lo ocultamos.
+            var tg = sender as ToggleButton;
+            if (tg != null && tg.IsChecked == true)
+            {
+                overlayImage.Visibility = Visibility.Visible;
+            }
+            else
+            {
+                overlayImage.Visibility = Visibility.Collapsed;
+            }
+        }
+        
+        private void CWT_Depth_ValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e)
+        {
+            // Opcional: aquí puedes poner lógica para reaccionar
+            // cuando cambie el valor de CWT_Depth.
+            // Por ejemplo, si quisieras mostrar el valor en algún TextBlock:
+            //    this.CWTDepthLabel.Text = e.NewValue.ToString("F0");
+        }
+        
+        private void CWT_Gain_ValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e)
+        {
+            // Opcional: lógica cuando cambie el valor de CWT_Gain.
+        }
+        
         private void M_Gain_ValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e)
         {
             M_ImageParam_CLR m_ImageParam_CLR = new M_ImageParam_CLR();
